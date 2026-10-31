@@ -65,13 +65,13 @@ class RoleMatcher:
         """Return the top roles as a list of dicts, best first.
 
         Each dict has role, score, matched (shared skills) and missing
-        (role skills the student lacks). Returns [] when no skill matches
-        any role.
+        (role skills the student lacks). Roles with a score of 0 share no
+        skill with the student and are left out, so fewer than top_n roles
+        can come back. Returns [] when no skill matches any role.
         """
         scores = self.score_all(student_skills)
-        if not any(s > 0 for s in scores.values()):
-            return []
-        ranked = sorted(scores.items(), key=lambda kv: (-kv[1], kv[0]))[:top_n]
+        scored = [(r, s) for r, s in scores.items() if s > 0]
+        ranked = sorted(scored, key=lambda kv: (-kv[1], kv[0]))[:top_n]
         student = set(student_skills)
         results = []
         for role, score in ranked:

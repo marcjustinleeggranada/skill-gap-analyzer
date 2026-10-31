@@ -57,7 +57,14 @@ if st.button("Analyze"):
                 "so no role can be scored. Add more skills."
             )
         else:
-            st.subheader("Top 3 roles")
+            if len(results) == 3:
+                st.subheader("Top 3 roles")
+            else:
+                st.subheader("Closest roles")
+                st.caption(
+                    f"Only {len(results)} of the 8 roles share a skill with your input. "
+                    "Roles with a score of 0 are not shown."
+                )
             for rank, item in enumerate(results, start=1):
                 st.markdown(f"### {rank}. {item['role']}")
                 st.write(f"Cosine similarity score: {item['score']:.2f} (scale 0 to 1)")

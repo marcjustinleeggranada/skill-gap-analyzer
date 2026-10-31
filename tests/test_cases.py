@@ -164,6 +164,14 @@ def t_data_integrity():
     return f"roles={len(sizes)}, sizes={sizes.min()}-{sizes.max()}", ok
 
 
+def t_zero_score_hidden():
+    # html, css and react appear in only 2 role profiles, so the third slot
+    # would be a role that shares no skill with the student.
+    s, u, r = analyze(["html", "css", "react"], "")
+    ok = 0 < len(r) < 3 and all(x["score"] > 0 for x in r)
+    return f"{[(x['role'], x['score']) for x in r]}", ok
+
+
 CASES = [
     ("T01", "empty", "empty string, nothing selected", "no skills, no results, no crash", t_empty),
     ("T02", "empty", "nothing selected, spaces typed", "no skills, no results", t_none_selected),
@@ -188,6 +196,7 @@ CASES = [
     ("T21", "normal", "python, sql", "missing skills ordered by weight, heaviest first", t_missing_order),
     ("T22", "normal", "same input twice", "identical output", t_same_input_same_output),
     ("T23", "normal", "role_profiles.csv", "8 roles, 25 to 40 skills each, all in skills.csv", t_data_integrity),
+    ("T24", "unexpected", "html, css, react", "fewer than 3 roles, no role with a score of 0", t_zero_score_hidden),
 ]
 
 

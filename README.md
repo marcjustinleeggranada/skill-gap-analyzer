@@ -49,14 +49,14 @@ One wrong result moves top-3 accuracy by about 3.3 points on 30 profiles, so the
 python tests/test_cases.py
 ```
 
-This runs 23 test cases and writes `results/test_cases.csv` with the input, expected result, actual result and pass or fail for each. `pytest tests/test_cases.py` runs the same cases.
+This runs 24 test cases and writes `results/test_cases.csv` with the input, expected result, actual result and pass or fail for each. `pytest tests/test_cases.py` runs the same cases.
 
 ## How it works
 
 1. The Matching module builds one document per role from its skill list.
 2. It fits a scikit-learn `TfidfVectorizer` on the 8 documents. A custom analyzer keeps multi-word skills such as "machine learning" as single terms.
 3. It converts the student's skills with the same fitted vocabulary.
-4. It ranks roles by cosine similarity and returns the top 3.
+4. It ranks roles by cosine similarity and returns the top 3. A role with a score of 0 shares no skill with the student and is not shown, so fewer than 3 roles can appear.
 5. The Skill Gap module lists the role skills the student lacks, ordered by TF-IDF weight, so the most role-specific skills come first.
 
 No model is trained and no answer is stored. Every score comes from the skills shared between the student and the role. Skills that appear in many roles (for example teamwork) get a low weight. Skills that appear in one role (for example penetration testing) get a high weight.

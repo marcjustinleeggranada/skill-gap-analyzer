@@ -20,9 +20,17 @@ Date: 2026-11-01. Machine: Windows 11 Home Single Language. Code: a fresh clone 
 
 ## Test results
 
-23 of 23 test cases passed. Exit code 0. No failure text.
+First run, on the code as cloned: 23 of 23 test cases passed. Exit code 0. No failure text.
 
-Full console output of `python tests/test_cases.py`. Lines T04, T05 and T14 are cut short by the test script itself, not by this report. The exclamation points in T10 and T11 are part of those test inputs and are kept as printed.
+Second run, after the change in "Files changed" added test T24: 24 of 24 test cases passed. Exit code 0. No failure text. T01 to T23 printed the same lines as below, plus:
+
+```
+T24 PASS html, css, react -> [('Web Developer', 0.3933), ('Quality Assurance Tester', 0.1075)]
+
+24 of 24 test cases passed.
+```
+
+Full console output of the first run of `python tests/test_cases.py`. Lines T04, T05 and T14 are cut short by the test script itself, not by this report. The exclamation points in T10 and T11 are part of those test inputs and are kept as printed.
 
 ```
 T01 PASS empty string, nothing selected -> skills=[], results=[]
@@ -82,7 +90,7 @@ What the numbers measure:
 - Random baseline: the top-3 accuracy of picking 3 of the 8 roles at random (3 divided by 8).
 - Most-common-roles baseline: the top-3 accuracy of always answering with the 3 roles that appear most often in the profiles file.
 
-These numbers match Build_Status.md. They come from the 30 made-up sample profiles and only show that the code runs. They are not the project's accuracy.
+These numbers match Build_Status.md. The evaluation was run again after the change in "Files changed" and printed the same numbers and the same 4 wrong results. They come from the 30 made-up sample profiles and only show that the code runs. They are not the project's accuracy.
 
 The test and evaluation scripts rewrote the files in `results/`. Their content is the same as the committed copies. Git records no change for them.
 
@@ -121,6 +129,9 @@ Screenshot files in `results/screenshots/`:
 | `03_analyze_result_top.jpg` | the input and the start of the result after Analyze |
 | `04_analyze_result_roles.jpg` | the top 3 roles with scores, matched skills and missing skills |
 | `05_guidance_line.jpg` | the end of the result with the guidance line at the bottom |
+| `06_zero_score_roles_hidden.jpg` | after the change: `html, css, react` typed, the heading "Closest roles", the note "Only 2 of the 8 roles share a skill with your input. Roles with a score of 0 are not shown.", and 2 roles |
+
+Screenshots 01 to 05 were taken before the change. After the change, the demo input still returns Web Developer 0.47, Quality Assurance Tester 0.23 and Software Developer 0.14, so those screenshots still match the screen.
 
 ## Extra inputs tried
 
@@ -128,7 +139,7 @@ Each input was typed into the "Other skills" box with nothing selected, then Ana
 
 | Input | Expected | Actual | Result |
 |---|---|---|---|
-| Very long text: `html, css, ` repeated 10,000 times plus `react` (110,005 characters) | No crash, no long wait; html, css and react recognized; Web Developer first | No error. Analyze took 0.06 seconds. Matched css, react, html. 1. Web Developer 0.39, 2. Quality Assurance Tester 0.11, 3. Cybersecurity Analyst 0.00 with "Matched skills: none" | Pass (see problem 2) |
+| Very long text: `html, css, ` repeated 10,000 times plus `react` (110,005 characters) | No crash, no long wait; html, css and react recognized; Web Developer first | First run: no error. Analyze took 0.06 seconds. Matched css, react, html. 1. Web Developer 0.39, 2. Quality Assurance Tester 0.11, 3. Cybersecurity Analyst 0.00 with "Matched skills: none". After the change: only roles 1 and 2 shown, with the note "Only 2 of the 8 roles share a skill with your input. Roles with a score of 0 are not shown." | Pass (the 0.00 role is fixed, see Files changed) |
 | Emoji: a snake emoji then `python`, a coffee emoji then `java`, a rocket emoji alone, `sql` then a heart emoji | Emoji removed; python, java and sql recognized | Matched java, sql, python. 1. Quality Assurance Tester 0.28, 2. Software Developer 0.28, 3. Database Administrator 0.13. The emoji were removed without a message | Pass |
 | Mixed languages: `Python, base de datos, ` then "database" in Japanese, `programación, sql, ` then "web" in Russian | No crash; python and sql recognized; other entries not matched | Matched sql, python. 1. Database Administrator 0.19, 2. Quality Assurance Tester 0.19, 3. Software Developer 0.19. Caption: "Not recognized and left out: base de datos, programaci n". The Japanese and Russian entries were dropped without being listed | Pass (see problem 3) |
 | Only spaces: 8 spaces | Empty-input message, no roles | "No skills were entered. Select at least one skill from the list or type a skill name, then press Analyze." No roles shown | Pass |
@@ -136,20 +147,29 @@ Each input was typed into the "Other skills" box with nothing selected, then Ana
 
 ## Files changed
 
-None. No code or data file was changed, because nothing failed. `data/role_profiles.csv` was not touched.
+Nothing failed in the check. After the check, the project owner asked for one change: stop a role with a score of 0.00 from showing as a recommendation. Files changed for it:
+
+- `src/matcher.py`: `recommend` now leaves out roles with a score of 0, so fewer than 3 roles can come back.
+- `app.py`: shows the heading "Closest roles" and a note when fewer than 3 roles come back, instead of "Top 3 roles".
+- `tests/test_cases.py`: added T24, which checks that `html, css, react` returns fewer than 3 roles and none with a score of 0.
+- `README.md`: test count changed from 23 to 24, and step 4 of "How it works" now says roles with a score of 0 are not shown.
+- `Build_Status.md`: updated the test count, the screen check, the new behavior and the screenshot open item. Dropped "and under pytest", because pytest was not installed for this check and that claim was not checked again.
+- `results/test_cases.csv`: rewritten by the test script, now with 24 rows.
+
+After the change: 24 of 24 tests passed, the evaluation output was unchanged, and the 5 extra inputs were run again with no errors. `data/role_profiles.csv` was not touched.
 
 Files added in this session:
 
 - `Build_Report.md`: this report.
-- `results/screenshots/`: the 5 screenshots listed above.
-- `docs/DECISIONS.md`: a dated entry for this check.
+- `results/screenshots/`: the 6 screenshots listed above.
+- `docs/DECISIONS.md`: dated entries for this check and the change.
 
 ## Problems I could not fix
 
-Nothing failed, so these are open notes for the team, not failed fixes.
+Nothing failed, so these are open notes for the team, not failed fixes. The 0.00 role problem found in the extra inputs is fixed (see Files changed).
 
 1. `python` does not run on this machine. The Windows Store placeholder answers instead. Use `py`, a virtual environment, or turn off the python entries under "App execution aliases" in Windows Settings. Until then the README command `python --version` fails here.
-2. A role with a score of 0.00 can appear in the top 3. In the long text test only 2 roles shared a skill with the input, so the third place showed Cybersecurity Analyst at 0.00 with "Matched skills: none". A student could read that as a recommendation. Hiding roles that score 0 would fix it. It was left as is because the rule for this check allows fixes only for failures.
+2. pytest is not in `requirements.txt` and was not installed, so `pytest tests/test_cases.py` was not run in this check.
 3. Non-English text is shown badly. Accented letters become a space ("programación" shows as "programaci n"). Entries written only in other scripts, such as Japanese or Russian, are dropped without being listed as not recognized. Matching is not affected, and the README already says the tool is English only.
 4. Emoji are removed without a message. This caused no wrong result.
 5. Short typos (under 5 letters, such as `htlm` or `sq`) are not corrected. This follows the design in Build_Status.md, but a student who types `htlm` gets no html match.

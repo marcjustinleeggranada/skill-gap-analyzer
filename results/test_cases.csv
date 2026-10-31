@@ -22,3 +22,4 @@ T20,normal,"python, sql, git",no selected skill in any missing list,missing list
 T21,normal,"python, sql","missing skills ordered by weight, heaviest first",missing weights are non-increasing in every returned role,pass
 T22,normal,same input twice,identical output,two runs compared,pass
 T23,normal,role_profiles.csv,"8 roles, 25 to 40 skills each, all in skills.csv","roles=8, sizes=28-32",pass
+T24,unexpected,"html, css, react","fewer than 3 roles, no role with a score of 0","[('Web Developer', 0.3933), ('Quality Assurance Tester', 0.1075)]",pass

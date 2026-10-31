@@ -2,6 +2,12 @@
 
 Log of project decisions. Newest first. Add a dated entry for every decision, then commit and push it.
 
+## 2026-11-01 (zero-score roles)
+
+- Hide roles with a score of 0. They share no skill with the student, so showing them as a recommendation misleads.
+- Show the heading "Closest roles" and a note when fewer than 3 roles remain.
+- Add test T24 for this case. The test count is now 24.
+
 ## 2026-11-01 (build check)
 
 - Verified the build on a fresh clone: 23 of 23 test cases pass, and the sample evaluation output matches Build_Status.md.
