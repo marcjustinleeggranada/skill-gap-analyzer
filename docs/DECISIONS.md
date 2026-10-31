@@ -163,7 +163,7 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 - Under the strict rule, a closed page does not back a skill. Recount without closed sources: 53 backed, 83 single source, 104 unverified (240 rows). If QA-3 and NA-3 also drop: 44, 82, 114.
 - The recount is in `sources/role_profiles_recount.csv`. `data/role_profiles.csv` is not changed. The coding side decides whether to adopt it.
 - Live sources per role: Cybersecurity Analyst 3, Data Analyst 2, Database Administrator 4, IT Support Specialist 3, Network Administrator 4, Quality Assurance Tester 3, Software Developer 3, Web Developer 2.
-- Proposed fix: replace closed sources with live ones, starting with Web Developer and Data Analyst. A Claude Code task will do this in a headed browser.
+- Proposed fix: replace closed sources with live ones, starting with Web Developer and Data Analyst. A follow-up task will do this in a headed browser.
 
 ## 2026-11-01 (decision: keep the 54 sources, state closures in the paper)
 
