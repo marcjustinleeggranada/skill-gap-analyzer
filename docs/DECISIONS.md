@@ -2,6 +2,21 @@
 
 Log of project decisions. Newest first. Add a dated entry for every decision, then commit and push it.
 
+## 2026-11-01 (archive copies of sources)
+
+- Saved 18 of 54 sources as PDF in `sources/archive/`: CA-6, CA-7, DA-1, DA-4, DBA-2, DBA-5, DBA-7, IT-1, IT-6, NA-8, NA-9, QA-5, QA-6, SD-1, SD-3, SD-4, WD-4, WD-6. Each PDF was checked for the job title and the skills or tasks text.
+- Saved no PDF for the other 36. A blank or error page was not kept.
+- Recorded 15 working Wayback Machine (web.archive.org) links: 9 new snapshots (CA-4, CA-6, DBA-2, DBA-4, IT-1, IT-5, NA-5, QA-6, WD-4) and 6 older snapshots from 2026-10-20 that the save request returned (DA-4, DBA-5, IT-6, NA-8, QA-5, SD-4).
+- Counted the NA-4 snapshot as failed: it holds only the CompTIA Japan home page that the URL now redirects to.
+- Recorded the other Wayback requests as failed: HTTP 520 or 523 errors from the archive, retried once for the 19 pages that may still be live.
+- Found 12 postings closed or expired: CA-3, CA-8, DBA-1, DBA-6, QA-1, QA-7, SD-2, WD-1, WD-2 (Bossjob: "position is no longer open"), IT-8 (JobStreet: "no longer advertised"), IT-4 and QA-2 (HTTP 410).
+- Found 7 pages gone with HTTP 404: CA-1, CA-9, DA-3, DBA-3, IT-3, IT-7, WD-5.
+- Found NA-4 removed: the PDF URL now redirects to the CompTIA Japan home page.
+- Could not view 16 pages: 10 Bossjob .com pages show a Cloudflare bot check (CA-5, DA-2, DA-5, IT-2, NA-1, NA-6, NA-7, QA-4, SD-5, WD-3), 4 Bureau of Labor Statistics pages return Access Denied (CA-4, DBA-4, IT-5, NA-5), QA-3 returns HTTP 522 (site down) and NA-3 resets the connection. The bot checks were not bypassed.
+- Left 32 sources with no archive copy. The 4 Bureau of Labor Statistics pages have a Wayback link but no PDF.
+- Flag for the sourcing side: the 20 closed, expired, missing or removed pages no longer count under the strict sourcing rule. `sources/sources.csv` and `data/role_profiles.csv` were not changed. The team decides whether to replace these sources and recount.
+- Added the column `archive_checked` (2026-11-01) to `sources/link_check.csv`. The `result` column still holds the earlier check and was not changed.
+
 ## 2026-11-01 (strict sourcing, mock test set)
 
 - Sourcing standard (owner delegated the choice): a source backs a skill only if the page names the skill or a standard synonym. A tool counts only when the skill is that tool. Skills implied by related tasks, example tools of another skill or category headings do not count. Closed, expired or removed pages do not count. 2 or more live sources = backed, 1 = `SINGLE SOURCE <ID>`, 0 = `UNVERIFIED`.

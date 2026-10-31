@@ -1,55 +1,55 @@
-source_id,url,checked,result,archive_copy
-CA-1,https://careers.kroll.com/Job/Manila/Security-Analyst-InfoSec/21013192,2026-11-01,loads,not saved
-CA-3,https://bossjob.ph/en-us/job/cyber-security-analyst-makati-468124,2026-11-01,loads,not saved
-CA-4,https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm,2026-11-01,loads,not saved
-CA-5,https://bossjob.com/zh-tw/job/security-operations-center-analyst-302450,2026-11-01,loads,not saved
-CA-6,https://www.mynextmove.org/profile/summary/15-1212.00,2026-11-01,loads,not saved
-CA-7,https://bossjob.ph/en-us/job/cyber-security-analyst-makati-342157,2026-11-01,loads,not saved
-CA-8,https://bossjob.ph/en-us/job/cyber-security-analyst-makati-497329,2026-11-01,loads,not saved
-CA-9,https://careers.transcom.com/careers/job-openings/it-global-security-analyst-manila-philippines,2026-11-01,loads,not saved
-DA-1,https://bossjob.ph/en-us/job/business-analyst-pasay-445898,2026-11-01,loads,not saved
-DA-2,https://bossjob.com/job/data-analyst-305630,2026-11-01,loads,not saved
-DA-3,https://www.themuse.com/jobs/schneiderelectric/data-business-analyst,2026-11-01,loads,not saved
-DA-4,https://www.onetonline.org/link/summary/15-2051.01,2026-11-01,loads,not saved
-DA-5,https://bossjob.com/job/data-analyst-pasig-250432,2026-11-01,loads,not saved
-DBA-1,https://bossjob.ph/job/database-administrator-238395,2026-11-01,loads,not saved
-DBA-2,https://philjobnet.gov.ph/job-vacancies/job/database-administrator-1129468,2026-11-01,loads,not saved
-DBA-3,https://careers.wtwco.com/zh/jobs/database-administrator-taguig-metro-manila-philippines,2026-11-01,loads,not saved
-DBA-4,https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm,2026-11-01,loads,not saved
-DBA-5,https://www.onetonline.org/link/summary/15-1242.00,2026-11-01,loads,not saved
-DBA-6,https://bossjob.ph/job/database-administrator-239345,2026-11-01,loads,not saved
-DBA-7,https://bossjob.ph/en-us/job/dba-quezon-city-493511,2026-11-01,loads,not saved
-IT-1,https://www.dof.com/vacancies/it-support-specialist-5fb45,2026-11-01,loads,not saved
-IT-2,https://bossjob.com/job/it-helpdesk-321970,2026-11-01,loads,not saved
-IT-3,https://kdci1.recruitee.com/o/it-helpdesk-support-specialist,2026-11-01,loads,not saved
-IT-4,https://cartrackasiacareerpage.teamtailor.com/jobs/6711266-it-support-technician-work-onsite-in-makati-city,2026-11-01,loads,not saved
-IT-5,https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm,2026-11-01,loads,not saved
-IT-6,https://www.onetonline.org/link/summary/15-1232.00,2026-11-01,loads,not saved
-IT-7,https://apply.workable.com/remote-va/jobs/view/E84A8CB85E.md,2026-11-01,loads,not saved
-IT-8,https://ph.jobstreet.com/job/92070239,2026-11-01,loads,not saved
-NA-1,https://bossjob.com/job/it-network-administrator-332774,2026-11-01,loads,not saved
-NA-3,https://mail.region12.dilg.gov.ph/sites/default/files/reportsresources/career-opportunities/954-network-administrator.pdf,2026-11-01,loads,not saved
-NA-4,https://comptia.jp/pdf/comptia-network-(n10-006)_examobjectives.pdf,2026-11-01,loads,not saved
-NA-5,https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm,2026-11-01,loads,not saved
-NA-6,https://bossjob.com/job/network-administrator-need-immediate-joiners-322077,2026-11-01,loads,not saved
-NA-7,https://bossjob.com/en-us/job/network-administrator-317076,2026-11-01,loads,not saved
-NA-8,https://www.onetonline.org/link/summary/15-1244.00,2026-11-01,loads,not saved
-NA-9,https://bossjob.ph/en-us/job/network-engineer-pasig-431474,2026-11-01,loads,not saved
-QA-1,https://bossjob.ph/job/qa-engineer-236969,2026-11-01,loads,not saved
-QA-2,https://remotive.com/remote/jobs/qa/manual-qa-tester-5102637,2026-11-01,loads,not saved
-QA-3,https://cloudpay.com/?p=21970,2026-11-01,loads,not saved
-QA-4,https://bossjob.com/en-us/job/qa-tester-makati-280196,2026-11-01,loads,not saved
-QA-5,https://www.onetonline.org/link/summary/15-1253.00,2026-11-01,loads,not saved
-QA-6,https://remotive.com/remote/jobs/qa/software-qa-tester-6272017,2026-11-01,loads,not saved
-QA-7,https://bossjob.ph/job/qa-engineer-237225,2026-11-01,loads,not saved
-SD-1,https://bossjob.ph/en-us/job/python-developer-manila-346826,2026-11-01,loads,not saved
-SD-2,https://bossjob.ph/en-us/job/java-developer-taguig-520682,2026-11-01,loads,not saved
-SD-3,https://bossjob.ph/en-us/job/software-engineer-pasig-434594,2026-11-01,loads,not saved
-SD-4,https://www.onetonline.org/link/summary/15-1252.00,2026-11-01,loads,not saved
-SD-5,https://bossjob.com/job/api-developer-311006,2026-11-01,loads,not saved
-WD-1,https://bossjob.ph/job/web-developer-237101,2026-11-01,loads,not saved
-WD-2,https://bossjob.ph/job/front-end-developer-react-work-from-home-235653,2026-11-01,loads,not saved
-WD-3,https://bossjob.com/en-us/job/web-developer-quezon-city-371741,2026-11-01,loads,not saved
-WD-4,https://www.mynextmove.org/profile/summary/15-1254.00,2026-11-01,loads,not saved
-WD-5,https://bossjob.com/en/job/web-developer-remote-335920,2026-11-01,loads,not saved
-WD-6,https://bossjob.ph/en-us/job/php-developer-muntinlupa-473970,2026-11-01,loads,not saved
+source_id,url,checked,result,archive_copy,archive_checked
+CA-1,https://careers.kroll.com/Job/Manila/Security-Analyst-InfoSec/21013192,2026-11-01,loads,PDF not saved (not found: HTTP 404 error page); archive link failed (HTTP 523),2026-11-01
+CA-3,https://bossjob.ph/en-us/job/cyber-security-analyst-makati-468124,2026-11-01,loads,PDF not saved (closed: page says the position is no longer open); archive link failed (HTTP 520),2026-11-01
+CA-4,https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm,2026-11-01,loads,"PDF not saved (blocked: Access Denied (HTTP 403), page not visible); https://web.archive.org/web/20261031213137/https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm",2026-11-01
+CA-5,https://bossjob.com/zh-tw/job/security-operations-center-analyst-302450,2026-11-01,loads,"PDF not saved (blocked: Cloudflare bot check page (HTTP 403), posting not visible); archive link failed (HTTP 520: Job failed)",2026-11-01
+CA-6,https://www.mynextmove.org/profile/summary/15-1212.00,2026-11-01,loads,sources/archive/CA-6.pdf; https://web.archive.org/web/20261031213222/https://www.mynextmove.org/profile/summary/15-1212.00,2026-11-01
+CA-7,https://bossjob.ph/en-us/job/cyber-security-analyst-makati-342157,2026-11-01,loads,sources/archive/CA-7.pdf; archive link failed (HTTP 520: Job failed),2026-11-01
+CA-8,https://bossjob.ph/en-us/job/cyber-security-analyst-makati-497329,2026-11-01,loads,PDF not saved (closed: page says the position is no longer open); archive link failed (HTTP 520),2026-11-01
+CA-9,https://careers.transcom.com/careers/job-openings/it-global-security-analyst-manila-philippines,2026-11-01,loads,PDF not saved (not found: Page not found (HTTP 404)); archive link failed (HTTP 523),2026-11-01
+DA-1,https://bossjob.ph/en-us/job/business-analyst-pasay-445898,2026-11-01,loads,sources/archive/DA-1.pdf; archive link failed (HTTP 520),2026-11-01
+DA-2,https://bossjob.com/job/data-analyst-305630,2026-11-01,loads,"PDF not saved (blocked: Cloudflare bot check page (HTTP 403), posting not visible); archive link failed (HTTP 520)",2026-11-01
+DA-3,https://www.themuse.com/jobs/schneiderelectric/data-business-analyst,2026-11-01,loads,PDF not saved (not found: page says Job Not Found (HTTP 404)); archive link failed (HTTP 523),2026-11-01
+DA-4,https://www.onetonline.org/link/summary/15-2051.01,2026-11-01,loads,"sources/archive/DA-4.pdf; https://web.archive.org/web/20261020154601/https://www.onetonline.org/link/summary/15-2051.01 (existing snapshot from 2026-10-20, the save request returned it)",2026-11-01
+DA-5,https://bossjob.com/job/data-analyst-pasig-250432,2026-11-01,loads,"PDF not saved (blocked: Cloudflare bot check page (HTTP 403), posting not visible); archive link failed (HTTP 520)",2026-11-01
+DBA-1,https://bossjob.ph/job/database-administrator-238395,2026-11-01,loads,PDF not saved (closed: page says the position is no longer open); archive link failed (HTTP 520),2026-11-01
+DBA-2,https://philjobnet.gov.ph/job-vacancies/job/database-administrator-1129468,2026-11-01,loads,sources/archive/DBA-2.pdf; https://web.archive.org/web/20261031213729/https://philjobnet.gov.ph/job-vacancies/job/database-administrator-1129468,2026-11-01
+DBA-3,https://careers.wtwco.com/zh/jobs/database-administrator-taguig-metro-manila-philippines,2026-11-01,loads,PDF not saved (not found: HTTP 404); archive link failed (HTTP 523),2026-11-01
+DBA-4,https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm,2026-11-01,loads,"PDF not saved (blocked: Access Denied (HTTP 403), page not visible); https://web.archive.org/web/20261031213816/https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm",2026-11-01
+DBA-5,https://www.onetonline.org/link/summary/15-1242.00,2026-11-01,loads,"sources/archive/DBA-5.pdf; https://web.archive.org/web/20261020154559/https://www.onetonline.org/link/summary/15-1242.00 (existing snapshot from 2026-10-20, the save request returned it)",2026-11-01
+DBA-6,https://bossjob.ph/job/database-administrator-239345,2026-11-01,loads,PDF not saved (closed: page says the position is no longer open); archive link failed (HTTP 520),2026-11-01
+DBA-7,https://bossjob.ph/en-us/job/dba-quezon-city-493511,2026-11-01,loads,sources/archive/DBA-7.pdf; archive link failed (HTTP 520),2026-11-01
+IT-1,https://www.dof.com/vacancies/it-support-specialist-5fb45,2026-11-01,loads,sources/archive/IT-1.pdf; https://web.archive.org/web/20261031213946/https://www.dof.com/vacancies/it-support-specialist-5fb45,2026-11-01
+IT-2,https://bossjob.com/job/it-helpdesk-321970,2026-11-01,loads,"PDF not saved (blocked: Cloudflare bot check page (HTTP 403), posting not visible); archive link failed (HTTP 520)",2026-11-01
+IT-3,https://kdci1.recruitee.com/o/it-helpdesk-support-specialist,2026-11-01,loads,PDF not saved (not found: page says the job cannot be found (HTTP 404)); archive link failed (HTTP 523),2026-11-01
+IT-4,https://cartrackasiacareerpage.teamtailor.com/jobs/6711266-it-support-technician-work-onsite-in-makati-city,2026-11-01,loads,PDF not saved (expired: page says the position is no longer active (HTTP 410)); archive link failed (HTTP 520),2026-11-01
+IT-5,https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm,2026-11-01,loads,"PDF not saved (blocked: Access Denied (HTTP 403), page not visible); https://web.archive.org/web/20261031214119/https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm",2026-11-01
+IT-6,https://www.onetonline.org/link/summary/15-1232.00,2026-11-01,loads,"sources/archive/IT-6.pdf; https://web.archive.org/web/20261020154558/https://www.onetonline.org/link/summary/15-1232.00 (existing snapshot from 2026-10-20, the save request returned it)",2026-11-01
+IT-7,https://apply.workable.com/remote-va/jobs/view/E84A8CB85E.md,2026-11-01,loads,"PDF not saved (not found: HTTP 404, empty page); archive link failed (HTTP 523)",2026-11-01
+IT-8,https://ph.jobstreet.com/job/92070239,2026-11-01,loads,PDF not saved (closed: page says the job is no longer advertised); archive link failed (HTTP 520),2026-11-01
+NA-1,https://bossjob.com/job/it-network-administrator-332774,2026-11-01,loads,"PDF not saved (blocked: Cloudflare bot check page (HTTP 403), posting not visible); archive link failed (HTTP 520)",2026-11-01
+NA-3,https://mail.region12.dilg.gov.ph/sites/default/files/reportsresources/career-opportunities/954-network-administrator.pdf,2026-11-01,loads,PDF not saved (unreachable: server reset the connection (two tries)); archive link failed (HTTP 520),2026-11-01
+NA-4,https://comptia.jp/pdf/comptia-network-(n10-006)_examobjectives.pdf,2026-11-01,loads,"PDF not saved (removed: PDF URL now redirects to the CompTIA Japan home page); archive link failed (snapshot holds only the CompTIA Japan home page that the URL redirects to, not the PDF)",2026-11-01
+NA-5,https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm,2026-11-01,loads,"PDF not saved (blocked: Access Denied (HTTP 403), page not visible); https://web.archive.org/web/20261031214510/https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm",2026-11-01
+NA-6,https://bossjob.com/job/network-administrator-need-immediate-joiners-322077,2026-11-01,loads,"PDF not saved (blocked: Cloudflare bot check page (HTTP 403), posting not visible); archive link failed (HTTP 520)",2026-11-01
+NA-7,https://bossjob.com/en-us/job/network-administrator-317076,2026-11-01,loads,"PDF not saved (blocked: Cloudflare bot check page (HTTP 403), posting not visible); archive link failed (HTTP 520)",2026-11-01
+NA-8,https://www.onetonline.org/link/summary/15-1244.00,2026-11-01,loads,"sources/archive/NA-8.pdf; https://web.archive.org/web/20261020154600/https://www.onetonline.org/link/summary/15-1244.00 (existing snapshot from 2026-10-20, the save request returned it)",2026-11-01
+NA-9,https://bossjob.ph/en-us/job/network-engineer-pasig-431474,2026-11-01,loads,sources/archive/NA-9.pdf; archive link failed (HTTP 520),2026-11-01
+QA-1,https://bossjob.ph/job/qa-engineer-236969,2026-11-01,loads,PDF not saved (closed: page says the position is no longer open); archive link failed (HTTP 520),2026-11-01
+QA-2,https://remotive.com/remote/jobs/qa/manual-qa-tester-5102637,2026-11-01,loads,PDF not saved (expired: page says the listing does not exist anymore (HTTP 410)); archive link failed (HTTP 520),2026-11-01
+QA-3,https://cloudpay.com/?p=21970,2026-11-01,loads,PDF not saved (site down: HTTP 522 connection timed out); archive link failed (HTTP 520),2026-11-01
+QA-4,https://bossjob.com/en-us/job/qa-tester-makati-280196,2026-11-01,loads,"PDF not saved (blocked: Cloudflare bot check page (HTTP 403), posting not visible); archive link failed (HTTP 520)",2026-11-01
+QA-5,https://www.onetonline.org/link/summary/15-1253.00,2026-11-01,loads,"sources/archive/QA-5.pdf; https://web.archive.org/web/20261020154600/https://www.onetonline.org/link/summary/15-1253.00 (existing snapshot from 2026-10-20, the save request returned it)",2026-11-01
+QA-6,https://remotive.com/remote/jobs/qa/software-qa-tester-6272017,2026-11-01,loads,sources/archive/QA-6.pdf; https://web.archive.org/web/20261031215000/https://remotive.com/remote/jobs/qa/software-qa-tester-6272017,2026-11-01
+QA-7,https://bossjob.ph/job/qa-engineer-237225,2026-11-01,loads,PDF not saved (closed: page says the position is no longer open); archive link failed (HTTP 520: Job failed),2026-11-01
+SD-1,https://bossjob.ph/en-us/job/python-developer-manila-346826,2026-11-01,loads,sources/archive/SD-1.pdf; archive link failed (HTTP 520),2026-11-01
+SD-2,https://bossjob.ph/en-us/job/java-developer-taguig-520682,2026-11-01,loads,PDF not saved (closed: page says the position is no longer open); archive link failed (HTTP 520: Job failed),2026-11-01
+SD-3,https://bossjob.ph/en-us/job/software-engineer-pasig-434594,2026-11-01,loads,sources/archive/SD-3.pdf; archive link failed (HTTP 520),2026-11-01
+SD-4,https://www.onetonline.org/link/summary/15-1252.00,2026-11-01,loads,"sources/archive/SD-4.pdf; https://web.archive.org/web/20261020154600/https://www.onetonline.org/link/summary/15-1252.00 (existing snapshot from 2026-10-20, the save request returned it)",2026-11-01
+SD-5,https://bossjob.com/job/api-developer-311006,2026-11-01,loads,"PDF not saved (blocked: Cloudflare bot check page (HTTP 403), posting not visible); archive link failed (HTTP 520)",2026-11-01
+WD-1,https://bossjob.ph/job/web-developer-237101,2026-11-01,loads,PDF not saved (closed: page says the position is no longer open); archive link failed (HTTP 520),2026-11-01
+WD-2,https://bossjob.ph/job/front-end-developer-react-work-from-home-235653,2026-11-01,loads,PDF not saved (closed: page says the position is no longer open); archive link failed (HTTP 520),2026-11-01
+WD-3,https://bossjob.com/en-us/job/web-developer-quezon-city-371741,2026-11-01,loads,"PDF not saved (blocked: Cloudflare bot check page (HTTP 403), posting not visible); archive link failed (HTTP 520)",2026-11-01
+WD-4,https://www.mynextmove.org/profile/summary/15-1254.00,2026-11-01,loads,sources/archive/WD-4.pdf; https://web.archive.org/web/20261031215336/https://www.mynextmove.org/profile/summary/15-1254.00,2026-11-01
+WD-5,https://bossjob.com/en/job/web-developer-remote-335920,2026-11-01,loads,PDF not saved (not found: page does not exist); archive link failed (HTTP 523),2026-11-01
+WD-6,https://bossjob.ph/en-us/job/php-developer-muntinlupa-473970,2026-11-01,loads,sources/archive/WD-6.pdf; archive link failed (HTTP 520),2026-11-01
