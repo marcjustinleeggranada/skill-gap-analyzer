@@ -151,3 +151,11 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 - The recount is in `sources/role_profiles_recount.csv`. `data/role_profiles.csv` is not changed. The coding side decides whether to adopt it.
 - Live sources per role: Cybersecurity Analyst 3, Data Analyst 2, Database Administrator 4, IT Support Specialist 3, Network Administrator 4, Quality Assurance Tester 3, Software Developer 3, Web Developer 2.
 - Proposed fix: replace closed sources with live ones, starting with Web Developer and Data Analyst. A Claude Code task will do this in a headed browser.
+
+## 2026-11-01 (decision: keep the 54 sources, state closures in the paper)
+
+- Keep all 54 sources and the 240 role-skill rows as they are. Do not replace closed sources now.
+- State in the paper that 30 of the 54 pages are closed and have no archive copy, and that the profiles rest on the other 24 sources (22 with a PDF or Wayback Machine copy).
+- Report both counts: 128 backed, 62 single source, 50 unverified when the pages were read; 53, 83 and 104 on the 24 sources that remain.
+- Replacing the closed sources moves to future work in Chapter 5.
+- The paper (Chapter 1 limitations, Chapter 3, Chapter 5, Appendix A note) and the progress report are updated to match.
