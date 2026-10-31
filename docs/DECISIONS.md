@@ -56,3 +56,10 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 - Test count is now 27.
 - Reword the on-screen draft notice, because 107 of 240 role skills now have 2 or more sources. Screenshots 01 to 06 show the old wording and need retaking.
 - The repository is public. The earlier build report put a network address into commit history. Visibility and history cleanup are the owner's decision.
+
+## 2026-11-01 (link check)
+
+- Opened all 34 URLs in `sources/sources.csv`. 32 load with their posting or reference content. Results are in `sources/link_check.csv`.
+- NA-2 loads but shows "Job closed". CA-2 no longer exists. Both are kept in place until the owner decides.
+- No archived copies were saved. The workspace cannot reach archive sites, so web archive links and PDFs of the postings are still open. The owner can save them from a browser, or approve a fetch of the archive service.
+- `data/role_profiles.csv` was not changed.
