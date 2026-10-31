@@ -2,6 +2,10 @@
 
 Log of project decisions. Newest first. Add a dated entry for every decision, then commit and push it.
 
+## 2026-11-01 (screenshots)
+
+- Retake screenshots 01 to 06 so they show the new draft notice.
+
 ## 2026-11-01 (zero-score roles)
 
 - Hide roles with a score of 0. They share no skill with the student, so showing them as a recommendation misleads.

@@ -131,7 +131,7 @@ Screenshot files in `results/screenshots/`:
 | `05_guidance_line.jpg` | the end of the result with the guidance line at the bottom |
 | `06_zero_score_roles_hidden.jpg` | after the change: `html, css, react` typed, the heading "Closest roles", the note "Only 2 of the 8 roles share a skill with your input. Roles with a score of 0 are not shown.", and 2 roles |
 
-Screenshots 01 to 05 were taken before the change. After the change, the demo input still returns Web Developer 0.47, Quality Assurance Tester 0.23 and Software Developer 0.14, so those screenshots still match the screen.
+All 6 screenshots were retaken on 2026-11-01 after the draft notice changed to "The role profiles are drafts. Some of their skills have not yet been checked against real job postings." The demo input still returns Web Developer 0.47, Quality Assurance Tester 0.23 and Software Developer 0.14. Screenshots 04 and 05 are scrolled below the notice, so the retaken files are identical to the old ones.
 
 ## Extra inputs tried
 
