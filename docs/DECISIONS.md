@@ -138,3 +138,16 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 - The paper Attribution section now points to Appendix A.
 - Fixed `sources/sources_apa.md`: the archive note now states the real copy counts, and a doubled period after "Inc." is removed.
 - Changed NA-6 in `sources/sources_apa.md` to "Employer not shown" with Bossjob as the site, so it matches the paper appendix.
+
+## 2026-11-01 (correction: browser check of pages reported closed)
+
+- Replaced the earlier recheck result. The earlier fetch tool returned cached content and called 19 closed pages open. That was wrong.
+- Opened the pages in a real Chrome browser on 2026-11-01. 29 sources are closed or gone: the 20 flagged ones plus CA-5, QA-4, SD-5, WD-3, DA-2, DA-5, IT-2, NA-1, NA-6 and NA-7.
+- QA-3 (Cloudflare error 522) and NA-3 (connection reset) could not be reached. They stay counted as live until a later check.
+- The four Bureau of Labor Statistics pages (CA-4, DBA-4, IT-5, NA-5) load.
+- The `result` column in `sources/link_check.csv` came from the same fetch tool and is not reliable.
+- The earlier entry that said the sourcing counts stay as they are is withdrawn.
+- Under the strict rule, a closed page does not back a skill. Recount without closed sources: 53 backed, 83 single source, 104 unverified (240 rows). If QA-3 and NA-3 also drop: 44, 82, 114.
+- The recount is in `sources/role_profiles_recount.csv`. `data/role_profiles.csv` is not changed. The coding side decides whether to adopt it.
+- Live sources per role: Cybersecurity Analyst 3, Data Analyst 2, Database Administrator 4, IT Support Specialist 3, Network Administrator 4, Quality Assurance Tester 3, Software Developer 3, Web Developer 2.
+- Proposed fix: replace closed sources with live ones, starting with Web Developer and Data Analyst. A Claude Code task will do this in a headed browser.

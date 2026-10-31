@@ -1,20 +1,37 @@
 source_id,checked,result,note
-CA-1,2026-11-01,open,page loads with a requirements section in a second fetch
-CA-3,2026-11-01,open,page loads with a requirements section in a second fetch
-CA-8,2026-11-01,open,page loads with a requirements section in a second fetch
-CA-9,2026-11-01,open,page loads with a requirements section in a second fetch
-DA-3,2026-11-01,open,page loads with a requirements section in a second fetch
-DBA-1,2026-11-01,open,page loads with a requirements section in a second fetch
-DBA-3,2026-11-01,open,page loads with a requirements section in a second fetch
-DBA-6,2026-11-01,open,page loads with a requirements section in a second fetch
-IT-3,2026-11-01,open,page loads with a requirements section in a second fetch
-IT-4,2026-11-01,open,page loads with a requirements section in a second fetch
-IT-7,2026-11-01,open,page loads with a requirements section in a second fetch
-IT-8,2026-11-01,open,page loads with a requirements section in a second fetch
-QA-1,2026-11-01,open,page loads with a requirements section in a second fetch
-QA-2,2026-11-01,open,page loads with a requirements section in a second fetch
-QA-7,2026-11-01,open,page loads with a requirements section in a second fetch
-SD-2,2026-11-01,open,page loads with a requirements section in a second fetch
-WD-1,2026-11-01,open,page loads with a requirements section in a second fetch
-WD-2,2026-11-01,open,page loads with a requirements section in a second fetch
-WD-5,2026-11-01,open,page loads with a requirements section in a second fetch
+CA-1,2026-11-01,closed,Kroll page returns 404
+CA-9,2026-11-01,closed,Transcom page not found
+DA-3,2026-11-01,closed,The Muse Job Not Found
+DBA-3,2026-11-01,closed,WTW page not found
+IT-3,2026-11-01,closed,Recruitee: could not find this job
+IT-7,2026-11-01,closed,Workable: Not Found
+IT-8,2026-11-01,closed,JobStreet: no longer advertised
+QA-2,2026-11-01,closed,Remotive: does not exist anymore
+IT-4,2026-11-01,closed,Cartrack posting no longer available
+WD-5,2026-11-01,closed,Bossjob: page does not exist
+NA-4,2026-11-01,closed,redirects to the CompTIA home page
+CA-3,2026-11-01,closed,Bossjob: this position is no longer open
+CA-8,2026-11-01,closed,Bossjob: this position is no longer open
+DBA-1,2026-11-01,closed,Bossjob: this position is no longer open
+DBA-6,2026-11-01,closed,Bossjob: this position is no longer open
+QA-1,2026-11-01,closed,Bossjob: this position is no longer open
+QA-7,2026-11-01,closed,Bossjob: this position is no longer open
+SD-2,2026-11-01,closed,Bossjob: this position is no longer open
+WD-1,2026-11-01,closed,Bossjob: this position is no longer open
+WD-2,2026-11-01,closed,Bossjob: this position is no longer open
+CA-5,2026-11-01,closed,Bossjob: this position is no longer open
+QA-4,2026-11-01,closed,Bossjob: this position is no longer open
+SD-5,2026-11-01,closed,Bossjob: this position is no longer open
+WD-3,2026-11-01,closed,Bossjob: this position is no longer open
+DA-2,2026-11-01,closed,Bossjob: this position is no longer open
+DA-5,2026-11-01,closed,Bossjob: this position is no longer open
+IT-2,2026-11-01,closed,Bossjob: this position is no longer open
+NA-1,2026-11-01,closed,Bossjob: this position is no longer open
+NA-6,2026-11-01,closed,Bossjob: this position is no longer open
+NA-7,2026-11-01,closed,Bossjob: this position is no longer open
+QA-3,2026-11-01,unreachable,"Cloudflare error 522, connection timed out"
+NA-3,2026-11-01,unreachable,connection reset in the browser
+CA-4,2026-11-01,open,BLS page loads in the browser
+DBA-4,2026-11-01,open,BLS page loads in the browser
+IT-5,2026-11-01,open,BLS page loads in the browser
+NA-5,2026-11-01,open,BLS page loads in the browser
