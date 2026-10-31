@@ -2,6 +2,16 @@
 
 Log of project decisions. Newest first. Add a dated entry for every decision, then commit and push it.
 
+## 2026-11-01 (Streamlit Community Cloud readiness)
+
+- Kept `requirements.txt` as is: the app imports only streamlit, pandas and scikit-learn, and all three are pinned.
+- Kept the data paths as is: they are built from each module's location, so the app finds `data/` from any working folder.
+- Added no `.streamlit/config.toml`: the app needs no theme, upload or server setting.
+- Tested a clean install of `requirements.txt` on Python 3.11 and 3.13. On both, `streamlit run app.py` from the repo root started, the health check returned 200 and one Analyze returned 3 roles with no errors.
+- Changed the README install line from Python 3.10 to Python 3.11 or newer, because pandas 3.0.5 needs 3.11.
+- Pick Python 3.13 in the deploy settings, a tested version.
+- The owner signs in and deploys on share.streamlit.io. The live URL goes into README.md after that.
+
 ## 2026-11-01 (Chapter 4 screenshots)
 
 - Saved 5 final screenshots in `results/screenshots/final/` as PNG, 1440 px wide, with no browser window frame.

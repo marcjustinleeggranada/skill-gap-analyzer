@@ -14,7 +14,7 @@ A student selects the IT skills they have from a list of 112 skills. The Matchin
 
 ## Install
 
-Python 3.10 or newer.
+Python 3.11 or newer (pandas 3.0.5 needs it). Tested on 3.11, 3.13 and 3.14.
 
 ```
 pip install -r requirements.txt
