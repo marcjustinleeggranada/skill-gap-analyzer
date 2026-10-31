@@ -55,7 +55,7 @@ One wrong result moves top-3 accuracy by about 3.1 points on 32 profiles.
 
 ## Assumptions
 
-- Role skills were checked against 52 opened pages (see `sources/`). A page backs a skill only if it names the skill or a standard synonym; implied skills, example tools of another skill, closed pages and expired pages do not count. The skill list and synonyms come from general knowledge. No source was invented. Rows no page names keep `UNVERIFIED`.
+- Role skills were checked against 54 opened pages (41 job postings, 13 occupation or reference pages) (see `sources/`). A page backs a skill only if it names the skill or a standard synonym; implied skills, example tools of another skill, closed pages and expired pages do not count. The skill list and synonyms come from general knowledge. No source was invented. Rows no page names keep `UNVERIFIED`.
 - Role sizes are 28 to 32 skills. The skill list has 112 skills (spec says about 100).
 - Typed words of 5 or more letters are matched to the closest skill when the spelling similarity is at least 0.8 (Python `difflib`). Shorter words must match exactly or through the synonym table.
 - The `k8s` synonym from the decisions file is left out because no Kubernetes skill is in the list.
