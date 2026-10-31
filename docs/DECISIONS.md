@@ -131,3 +131,10 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 - The two checks disagree, so the closed status is not settled. The sourcing counts (128 backed, 62 single source, 50 unverified) stay as they are until the cause is found, such as a block by region or a cached copy on one side.
 - Checked by hand in a browser, the 20 pages decide whether any source drops out under the strict rule. The owner does this check.
 - The paper and the report now say archive copies exist for 22 of the 54 sources (18 PDFs, and 4 more with a Wayback Machine link only) and that 32 have none.
+
+## 2026-11-01 (paper appendix of sources)
+
+- Added Appendix A to the paper: the 54 sources in APA style, grouped by role, with the same IDs as the source column in `data/role_profiles.csv`.
+- The paper Attribution section now points to Appendix A.
+- Fixed `sources/sources_apa.md`: the archive note now states the real copy counts, and a doubled period after "Inc." is removed.
+- Two entries in the paper appendix differ in form from `sources_apa.md`: NA-6 reads "Employer not shown" with Bossjob as the site. Update `sources/sources_apa.md` to match if the group reuses it.

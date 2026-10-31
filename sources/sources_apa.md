@@ -8,7 +8,7 @@ Project: Skill Gap Analyzer, Group 8, BSIT (Bachelor of Science in Information T
 - A skill backed by 2 or more live sources lists their IDs, for example `SD-1; SD-2`. A skill named by only 1 source is marked `SINGLE SOURCE` plus its ID. A skill no opened page named is marked `UNVERIFIED`. No skill was removed or renamed because of this check.
 - Pages that were closed, expired or removed do not count. CA-2 (page no longer exists) and NA-2 (shows "Job closed") were removed from the source list and replaced by CA-5 and CA-6, and NA-6 to NA-9.
 - Each page was read against the role's skill list with an automated reader that returned the skill and a short quote. Spot-check a few rows against the pages before the paper cites the counts.
-- Postings expire. No archived copies exist yet (see `sources/link_check.csv`). The team should save a PDF or web archive copy of every posting.
+- Postings expire. Archive copies were attempted on 2026-11-01: 18 sources have a PDF in `sources/archive/`, 15 have a Wayback Machine link, and 32 have no copy. See `sources/link_check.csv` and the DECISIONS entries for the reasons. One check reported 20 pages as closed or gone, and a second check found 19 of them open; see `sources/recheck_closed.csv`.
 - Some postings are undated. The date column in `sources.csv` is blank when the page shows none. The DILG vacancy notice (2018) and the CompTIA Network+ objectives (2014) are older than the rest and are kept because they describe the role in plain terms.
 - Pages opened but not used because they had no job description, were closed, or failed to load: the Teradyne (Cebu) network administrator page, the Canon (Taguig) cyber security analyst page, the PCCW-HKT (Pasig) IT support page, the Cambridge data analyst page, the WTW SOC analyst page (closed April 3, 2025), a Recruitee SOC analyst page (redirects), one JobStreet IT support page, one Remotive systems administrator page, and one Workable IT support posting that did not load.
 
@@ -20,7 +20,7 @@ Backed by 2 or more sources: 10. Single source: 12. Unverified: 9.
 - **SD-2.** Bossjob. (2026, June 24). *Java Developer* [Job posting]. https://bossjob.ph/en-us/job/java-developer-taguig-520682
 - **SD-3.** Dempsey Resource Management Inc. (2026, January 29). *Software Developer* [Job posting]. https://bossjob.ph/en-us/job/software-engineer-pasig-434594
 - **SD-4.** U.S. Department of Labor, Employment and Training Administration. (2026). *15-1252.00 Software Developers* [Occupation summary report]. O*NET OnLine. https://www.onetonline.org/link/summary/15-1252.00
-- **SD-5.** Hunter's Hub Inc.. (2025, April 29). *API Developer* [Job posting]. Bossjob. https://bossjob.com/job/api-developer-311006
+- **SD-5.** Hunter's Hub Inc. (2025, April 29). *API Developer* [Job posting]. Bossjob. https://bossjob.com/job/api-developer-311006
 
 ## Web Developer
 
@@ -41,7 +41,7 @@ Backed by 2 or more sources: 15. Single source: 8. Unverified: 6.
 - **DA-2.** Manpower Philippines. (2025, April 15). *Data Analyst* [Job posting]. Bossjob. https://bossjob.com/job/data-analyst-305630
 - **DA-3.** Schneider Electric. (n.d.). *Data & Business Analyst* [Job posting]. The Muse. Retrieved November 1, 2026, from https://www.themuse.com/jobs/schneiderelectric/data-business-analyst
 - **DA-4.** U.S. Department of Labor, Employment and Training Administration. (2026). *15-2051.01 Business Intelligence Analysts* [Occupation summary report]. O*NET OnLine. https://www.onetonline.org/link/summary/15-2051.01
-- **DA-5.** Trinity Workforce Solutions, Inc.. (2025, January 13). *Data Analyst II* [Job posting]. Bossjob. https://bossjob.com/job/data-analyst-pasig-250432
+- **DA-5.** Trinity Workforce Solutions, Inc. (2025, January 13). *Data Analyst II* [Job posting]. Bossjob. https://bossjob.com/job/data-analyst-pasig-250432
 
 ## Database Administrator
 
