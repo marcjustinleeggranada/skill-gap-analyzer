@@ -11,6 +11,10 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 
 ## 2026-11-01
 
+- Sourcing: role skills were checked against 34 opened pages (job postings, Occupational Outlook Handbook and O*NET OnLine summaries, one CompTIA exam objectives document). Output is in `sources/`.
+- Sourcing rule applied: 2 or more sources for a role back a skill; 1 source is marked SINGLE SOURCE; no source is UNVERIFIED. A skill in a posting's skill tags counts as named.
+- Sourcing result: 107 skills backed, 61 single source, 72 unverified, out of 240. `data/role_profiles.csv` is unchanged; the coding side decides when to adopt the sourced file.
+- Suggested additions are listed in `sources/sources_apa.md` and were not added to the CSV.
 - Input: the student selects skills from a list of 112 skills and can type extras. There is no resume input.
 - Method: TF-IDF (Term Frequency-Inverse Document Frequency) and cosine similarity on 8 role documents. No model training.
 - Roles: the 8 roles are final for now. They live in `data/role_profiles.csv` so the instructor can change them.
