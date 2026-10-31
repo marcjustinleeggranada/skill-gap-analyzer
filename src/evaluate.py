@@ -20,7 +20,7 @@ from src.matcher import RoleMatcher
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 RESULTS_DIR = ROOT / "results"
-SAMPLE_BANNER = "SAMPLE DATA, NOT A PROJECT RESULT"
+MOCK_BANNER = "MOCK DATA: manually created profiles, not collected from students"
 
 # Pairs that share many skills. Checked first when explaining an error.
 OVERLAP_PAIRS = [
@@ -30,15 +30,15 @@ OVERLAP_PAIRS = [
 
 
 def default_profiles_path():
-    """Use the real file when it exists, otherwise the sample file."""
+    """Use the collected-student file when it exists, otherwise the mock file."""
     real = DATA_DIR / "student_profiles.csv"
-    return real if real.exists() else DATA_DIR / "student_profiles_SAMPLE.csv"
+    return real if real.exists() else DATA_DIR / "student_profiles_MOCK.csv"
 
 
-def is_sample(path, df):
-    if "SAMPLE" in Path(path).name.upper():
+def is_mock(path, df):
+    if "MOCK" in Path(path).name.upper():
         return True
-    return "is_sample" in df.columns and (df["is_sample"].astype(str).str.lower() == "yes").any()
+    return "data_type" in df.columns and (df["data_type"].astype(str).str.lower() == "mock").any()
 
 
 def likely_cause(matcher, true_role, top3_roles, n_skills):
@@ -63,7 +63,7 @@ def evaluate(profiles_path=None, matcher=None, skills=None, synonyms=None):
     matcher = matcher or RoleMatcher()
     skills = skills or skill_input.load_skills()
     synonyms = synonyms or skill_input.load_synonyms()
-    sample = is_sample(profiles_path, df)
+    mock = is_mock(profiles_path, df)
 
     rows, errors = [], []
     confusion = Counter()
@@ -98,7 +98,7 @@ def evaluate(profiles_path=None, matcher=None, skills=None, synonyms=None):
     common_hits = sum(1 for r in df["true_role"].str.strip() if r in common3)
 
     result = {
-        "banner": SAMPLE_BANNER if sample else "Real student profiles",
+        "banner": MOCK_BANNER if mock else "Profiles collected from students",
         "profiles_file": profiles_path.name,
         "total_profiles": total,
         "top3_correct": correct,
@@ -120,7 +120,7 @@ def evaluate(profiles_path=None, matcher=None, skills=None, synonyms=None):
 def write_results(result, errors, confusion, roles, out_dir=None):
     out = Path(out_dir or RESULTS_DIR)
     out.mkdir(parents=True, exist_ok=True)
-    sample = result["banner"] == SAMPLE_BANNER
+    mock = result["banner"] == MOCK_BANNER
 
     with open(out / "accuracy.json", "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2)
@@ -133,15 +133,15 @@ def write_results(result, errors, confusion, roles, out_dir=None):
 
     for name, frame, index in (("errors.csv", errors, False), ("confusion.csv", cm, True)):
         with open(out / name, "w", encoding="utf-8", newline="") as f:
-            if sample:
-                f.write(f"# {SAMPLE_BANNER}\n")
+            if mock:
+                f.write(f"# {MOCK_BANNER}\n")
             frame.to_csv(f, index=index)
 
 
 def print_report(result, errors):
-    if result["banner"] == SAMPLE_BANNER:
-        print(SAMPLE_BANNER)
-        print("-" * len(SAMPLE_BANNER))
+    if result["banner"] == MOCK_BANNER:
+        print(MOCK_BANNER)
+        print("-" * len(MOCK_BANNER))
     t = result["total_profiles"]
     print(f"Profiles file: {result['profiles_file']} ({t} profiles)")
     print(f"Top-3 accuracy: {result['top3_accuracy_percent']}% "

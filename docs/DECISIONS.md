@@ -2,6 +2,18 @@
 
 Log of project decisions. Newest first. Add a dated entry for every decision, then commit and push it.
 
+## 2026-11-01 (strict sourcing, mock test set)
+
+- Sourcing standard (owner delegated the choice): a source backs a skill only if the page names the skill or a standard synonym. A tool counts only when the skill is that tool. Skills implied by related tasks, example tools of another skill or category headings do not count. Closed, expired or removed pages do not count. 2 or more live sources = backed, 1 = `SINGLE SOURCE <ID>`, 0 = `UNVERIFIED`.
+- Audited all 34 sources against that rule. CA-2 (page gone) and NA-2 (closed) were removed. Added 18 live sources (CA-5 to CA-9, NA-6 to NA-9, QA-5 to QA-7, DBA-5 to DBA-7, IT-6 to IT-8, SD-5, WD-5, WD-6, DA-5). Now 52 sources.
+- Result: 128 rows backed, 62 single source, 50 unverified (was 107 / 61 / 72 under the looser rule). Sourcing stopped here. No skill was dropped or renamed.
+- Postings expire and the workspace cannot reach archive sites. The team must save archive copies.
+- Test set (owner decision): real student profiles will not be collected. `data/student_profiles_MOCK.csv` has 32 manually created profiles (4 per role), written before the first run and not tuned. The instructor guidelines allow manually created examples. Results carry the line "MOCK DATA: manually created profiles, not collected from students".
+- First run: top-3 100% (32 of 32), top-1 96.9%. Reported as optimistic because the profiles are clean and typical. Not tuned to reach 80%.
+- The paper chat must update Chapter 3, the ethics section and the weekly report: no student data was collected, the test set is manually created.
+- Replaced `student_profiles_SAMPLE.csv` and the `SAMPLE` banner with the mock file and banner. Added test T28 (mock data integrity). 28 test cases.
+- The history rewrite for the wrong email was done by the owner's other session. This clone was reset to it. All 9 commits now carry the correct email.
+
 ## 2026-11-01 (screenshots)
 
 - Retake screenshots 01 to 06 so they show the new draft notice.

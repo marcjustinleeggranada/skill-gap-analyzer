@@ -1,0 +1,33 @@
+profile_id,skills,true_role,data_type
+M01,python;java;object-oriented programming;data structures;algorithms;git;debugging;problem solving;teamwork,Software Developer,mock
+M02,c++;c#;data structures;algorithms;object-oriented programming;unit testing;git;critical thinking,Software Developer,mock
+M03,java;kotlin;object-oriented programming;rest api;git;agile;docker;communication,Software Developer,mock
+M04,python;javascript;git;ci/cd;docker;unit testing;sql;technical documentation;agile,Software Developer,mock
+M05,html;css;javascript;react;responsive design;git;bootstrap,Web Developer,mock
+M06,html;css;javascript;php;mysql;laravel;wordpress;bootstrap,Web Developer,mock
+M07,javascript;typescript;react;node.js;rest api;mongodb;git;web accessibility,Web Developer,mock
+M08,html;css;javascript;angular;responsive design;debugging;teamwork;communication,Web Developer,mock
+M09,excel;sql;data visualization;power bi;statistics;data cleaning;reporting;attention to detail,Data Analyst,mock
+M10,python;pandas;numpy;data cleaning;data analysis;statistics;machine learning;tableau,Data Analyst,mock
+M11,sql;excel;tableau;reporting;critical thinking;communication;data analysis,Data Analyst,mock
+M12,python;r;statistics;data visualization;etl;postgresql;problem solving,Data Analyst,mock
+M13,sql;mysql;database design;data modeling;query optimization;backup and recovery;indexing,Database Administrator,mock
+M14,oracle database;postgresql;stored procedures;replication;database security;linux,Database Administrator,mock
+M15,microsoft sql server;stored procedures;backup and recovery;windows;powershell;indexing;attention to detail,Database Administrator,mock
+M16,mongodb;mysql;database design;etl;bash scripting;linux;teamwork,Database Administrator,mock
+M17,tcp/ip;routing;switching;vlan;cisco ios;subnetting;network troubleshooting,Network Administrator,mock
+M18,dns;dhcp;firewall configuration;vpn;wireless networking;network monitoring;windows,Network Administrator,mock
+M19,cisco ios;routing;load balancing;network security;linux;bash scripting;network monitoring,Network Administrator,mock
+M20,tcp/ip;subnetting;active directory;windows;virtualization;network troubleshooting;technical documentation,Network Administrator,mock
+M21,network security;vulnerability assessment;penetration testing;linux;python;encryption,Cybersecurity Analyst,mock
+M22,siem;log analysis;incident response;threat intelligence;malware analysis,Cybersecurity Analyst,mock
+M23,risk assessment;security auditing;identity and access management;encryption;communication;attention to detail,Cybersecurity Analyst,mock
+M24,firewall configuration;tcp/ip;vulnerability assessment;incident response;windows;powershell;critical thinking,Cybersecurity Analyst,mock
+M25,manual testing;test case design;bug reporting;regression testing;jira;attention to detail,Quality Assurance Tester,mock
+M26,test automation;selenium;java;api testing;unit testing;ci/cd;git,Quality Assurance Tester,mock
+M27,manual testing;bug reporting;test case design;performance testing;sql;communication,Quality Assurance Tester,mock
+M28,test automation;selenium;python;regression testing;debugging;teamwork;jira,Quality Assurance Tester,mock
+M29,help desk;ticketing systems;windows;hardware troubleshooting;customer service;communication,IT Support Specialist,mock
+M30,remote support;os installation;windows;active directory;help desk;problem solving,IT Support Specialist,mock
+M31,hardware troubleshooting;os installation;linux;virtualization;customer service;time management;technical documentation,IT Support Specialist,mock
+M32,help desk;ticketing systems;network troubleshooting;tcp/ip;dns;windows;customer service,IT Support Specialist,mock

@@ -1,35 +1,55 @@
 source_id,role,title,employer_or_publisher,url,date_posted_or_published,date_accessed
-SD-1,Software Developer,Python Developer,HSI (posted on Bossjob),https://bossjob.ph/en-us/job/python-developer-manila-346826,2025-08-04,2026-11-01
-SD-2,Software Developer,Java Developer,Posted on Bossjob (employer name not shown separately),https://bossjob.ph/en-us/job/java-developer-taguig-520682,2026-06-24,2026-11-01
-SD-3,Software Developer,Software Developer,Dempsey Resource Management Inc.,https://bossjob.ph/en-us/job/software-engineer-pasig-434594,2026-01-29,2026-11-01
-SD-4,Software Developer,15-1252.00 Software Developers,"O*NET OnLine, U.S. Department of Labor",https://www.onetonline.org/link/summary/15-1252.00,2026,2026-11-01
-WD-1,Web Developer,Web Developer,Wingman Outsourcing (posted on Bossjob),https://bossjob.ph/job/web-developer-237101,2024-11-11,2026-11-01
-WD-2,Web Developer,Front End Developer | React | Work from home,Mashup Garage (posted on Bossjob),https://bossjob.ph/job/front-end-developer-react-work-from-home-235653,2024-11-09,2026-11-01
-WD-3,Web Developer,Web Developer,ALBERTO Group of Companies (posted on Bossjob),https://bossjob.com/en-us/job/web-developer-quezon-city-371741,2025-10-03,2026-11-01
-WD-4,Web Developer,Web Developers (summary report),"My Next Move, U.S. Department of Labor (O*NET data)",https://www.mynextmove.org/profile/summary/15-1254.00,2026-10-06,2026-11-01
+CA-1,Cybersecurity Analyst,"Security Analyst, InfoSec",Kroll,https://careers.kroll.com/Job/Manila/Security-Analyst-InfoSec/21013192,,2026-11-01
+CA-3,Cybersecurity Analyst,Security Analyst,"Wordtext Systems, Inc (posted on Bossjob)",https://bossjob.ph/en-us/job/cyber-security-analyst-makati-468124,2026-03-17,2026-11-01
+CA-4,Cybersecurity Analyst,"Information Security Analysts, Occupational Outlook Handbook",U.S. Bureau of Labor Statistics,https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm,2026-08-27,2026-11-01
+CA-5,Cybersecurity Analyst,SOC Analyst,Graybox Security (posted on Bossjob),https://bossjob.com/zh-tw/job/security-operations-center-analyst-302450,2025-04-09,2026-11-01
+CA-6,Cybersecurity Analyst,Information Security Analysts (summary report),"My Next Move, U.S. Department of Labor (O*NET data)",https://www.mynextmove.org/profile/summary/15-1212.00,,2026-11-01
+CA-7,Cybersecurity Analyst,Cyber Security Analyst,Ant Colony Resources (posted on Bossjob),https://bossjob.ph/en-us/job/cyber-security-analyst-makati-342157,2025-07-18,2026-11-01
+CA-8,Cybersecurity Analyst,Cyber Security Analyst,"Wordtext Systems, Inc (posted on Bossjob)",https://bossjob.ph/en-us/job/cyber-security-analyst-makati-497329,2026-05-07,2026-11-01
+CA-9,Cybersecurity Analyst,IT Global Security Analyst,Transcom,https://careers.transcom.com/careers/job-openings/it-global-security-analyst-manila-philippines,,2026-11-01
 DA-1,Data Analyst,Business Intelligence (BI) Analyst,J-K Network Services (posted on Bossjob),https://bossjob.ph/en-us/job/business-analyst-pasay-445898,2026-02-13,2026-11-01
 DA-2,Data Analyst,Data Analyst,Manpower Philippines (posted on Bossjob),https://bossjob.com/job/data-analyst-305630,2025-04-15,2026-11-01
 DA-3,Data Analyst,Data & Business Analyst,Schneider Electric (posted on The Muse),https://www.themuse.com/jobs/schneiderelectric/data-business-analyst,,2026-11-01
 DA-4,Data Analyst,15-2051.01 Business Intelligence Analysts,"O*NET OnLine, U.S. Department of Labor",https://www.onetonline.org/link/summary/15-2051.01,2026,2026-11-01
+DA-5,Data Analyst,Data Analyst II,"Trinity Workforce Solutions, Inc. (posted on Bossjob)",https://bossjob.com/job/data-analyst-pasig-250432,2025-01-13,2026-11-01
 DBA-1,Database Administrator,Database Administrator,RuralNet Inc. (posted on Bossjob),https://bossjob.ph/job/database-administrator-238395,2024-11-15,2026-11-01
 DBA-2,Database Administrator,Database Administrator,"Shellsoft Technology Corporation (posted on PhilJobNet, Department of Labor and Employment)",https://philjobnet.gov.ph/job-vacancies/job/database-administrator-1129468,2025-01-13,2026-11-01
 DBA-3,Database Administrator,Database Administrator,WTW,https://careers.wtwco.com/zh/jobs/database-administrator-taguig-metro-manila-philippines,,2026-11-01
 DBA-4,Database Administrator,"Database Administrators and Architects, Occupational Outlook Handbook",U.S. Bureau of Labor Statistics,https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm,2026-08-27,2026-11-01
-NA-1,Network Administrator,IT Network Administrator,Synlink Recruitment Outsourcing Co. Inc. (posted on Bossjob),https://bossjob.com/job/it-network-administrator-332774,2025-06-23,2026-11-01
-NA-2,Network Administrator,IT Network Administrator,"RareJob Philippines, Inc. (posted on Kalibrr; listing closed)",https://www.kalibrr.id/c/rarejob-philippines-inc-1/jobs/167514/it-network-administrator-2,,2026-11-01
-NA-3,Network Administrator,"Announcement: Network Administrator (1), Regional Office","Department of the Interior and Local Government, Region XII",https://mail.region12.dilg.gov.ph/sites/default/files/reportsresources/career-opportunities/954-network-administrator.pdf,2018-02-14,2026-11-01
-NA-4,Network Administrator,CompTIA Network+ Certification Exam Objectives (N10-006),CompTIA,https://comptia.jp/pdf/comptia-network-(n10-006)_examobjectives.pdf,2014,2026-11-01
-NA-5,Network Administrator,"Network and Computer Systems Administrators, Occupational Outlook Handbook",U.S. Bureau of Labor Statistics,https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm,2026-08-27,2026-11-01
-CA-1,Cybersecurity Analyst,"Security Analyst, InfoSec",Kroll,https://careers.kroll.com/Job/Manila/Security-Analyst-InfoSec/21013192,,2026-11-01
-CA-2,Cybersecurity Analyst,Security Operations Center Analyst (For Pooling) | Philippines,Peak Support (posted on Paylocity),https://recruiting.paylocity.com/Recruiting/Jobs/Details/3584883,,2026-11-01
-CA-3,Cybersecurity Analyst,Security Analyst,"Wordtext Systems, Inc (posted on Bossjob)",https://bossjob.ph/en-us/job/cyber-security-analyst-makati-468124,2026-03-17,2026-11-01
-CA-4,Cybersecurity Analyst,"Information Security Analysts, Occupational Outlook Handbook",U.S. Bureau of Labor Statistics,https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm,2026-08-27,2026-11-01
-QA-1,Quality Assurance Tester,QA Engineer,N-Compass TV Cebu (posted on Bossjob),https://bossjob.ph/job/qa-engineer-236969,2024-11-09,2026-11-01
-QA-2,Quality Assurance Tester,Manual QA Tester @Full Scale,Full Scale (posted on Remotive),https://remotive.com/remote/jobs/qa/manual-qa-tester-5102637,,2026-11-01
-QA-3,Quality Assurance Tester,"QA Engineer - Makati City, Metro Manila, Philippines - Hybrid",CloudPay,https://cloudpay.com/?p=21970,,2026-11-01
-QA-4,Quality Assurance Tester,QA Tester - Makati,Hunter's Hub Inc. (posted on Bossjob),https://bossjob.com/en-us/job/qa-tester-makati-280196,2025-03-07,2026-11-01
+DBA-5,Database Administrator,15-1242.00 Database Administrators,"O*NET OnLine, U.S. Department of Labor",https://www.onetonline.org/link/summary/15-1242.00,,2026-11-01
+DBA-6,Database Administrator,Database Administrator,Philippine Bank of Communications (posted on Bossjob),https://bossjob.ph/job/database-administrator-239345,2024-11-20,2026-11-01
+DBA-7,Database Administrator,Database Administrator,All Visual and Lights Systems (posted on Bossjob),https://bossjob.ph/en-us/job/dba-quezon-city-493511,2026-04-28,2026-11-01
 IT-1,IT Support Specialist,IT Support Specialist,DOF,https://www.dof.com/vacancies/it-support-specialist-5fb45,,2026-11-01
 IT-2,IT Support Specialist,IT helpdesk,Stark Asia Solutions Inc. (posted on Bossjob),https://bossjob.com/job/it-helpdesk-321970,2025-05-22,2026-11-01
 IT-3,IT Support Specialist,IT Helpdesk Support Specialist,KDCI Outsourcing (posted on Recruitee),https://kdci1.recruitee.com/o/it-helpdesk-support-specialist,,2026-11-01
 IT-4,IT Support Specialist,IT Support Technician | Work Onsite in Makati City,Cartrack Asia career page (employer name not given in the posting text),https://cartrackasiacareerpage.teamtailor.com/jobs/6711266-it-support-technician-work-onsite-in-makati-city,,2026-11-01
 IT-5,IT Support Specialist,"Computer Support Specialists, Occupational Outlook Handbook",U.S. Bureau of Labor Statistics,https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm,2026-08-27,2026-11-01
+IT-6,IT Support Specialist,15-1232.00 Computer User Support Specialists,"O*NET OnLine, U.S. Department of Labor",https://www.onetonline.org/link/summary/15-1232.00,,2026-11-01
+IT-7,IT Support Specialist,IT Support Specialist (Remote),Remote VA (posted on Workable),https://apply.workable.com/remote-va/jobs/view/E84A8CB85E.md,2026-05-22,2026-11-01
+IT-8,IT Support Specialist,IT Support Specialist L1,Employer not shown (posted on JobStreet),https://ph.jobstreet.com/job/92070239,,2026-11-01
+NA-1,Network Administrator,IT Network Administrator,Synlink Recruitment Outsourcing Co. Inc. (posted on Bossjob),https://bossjob.com/job/it-network-administrator-332774,2025-06-23,2026-11-01
+NA-3,Network Administrator,"Announcement: Network Administrator (1), Regional Office","Department of the Interior and Local Government, Region XII",https://mail.region12.dilg.gov.ph/sites/default/files/reportsresources/career-opportunities/954-network-administrator.pdf,2018-02-14,2026-11-01
+NA-4,Network Administrator,CompTIA Network+ Certification Exam Objectives (N10-006),CompTIA,https://comptia.jp/pdf/comptia-network-(n10-006)_examobjectives.pdf,2014,2026-11-01
+NA-5,Network Administrator,"Network and Computer Systems Administrators, Occupational Outlook Handbook",U.S. Bureau of Labor Statistics,https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm,2026-08-27,2026-11-01
+NA-6,Network Administrator,Network Administrator - Need Immediate Joiners,Posted on Bossjob (employer not shown separately),https://bossjob.com/job/network-administrator-need-immediate-joiners-322077,2025-05-22,2026-11-01
+NA-7,Network Administrator,Network Engineer,Indra Philippines (posted on Bossjob),https://bossjob.com/en-us/job/network-administrator-317076,2025-05-13,2026-11-01
+NA-8,Network Administrator,15-1244.00 Network and Computer Systems Administrators,"O*NET OnLine, U.S. Department of Labor",https://www.onetonline.org/link/summary/15-1244.00,,2026-11-01
+NA-9,Network Administrator,Network Engineer,J-K Network Services (posted on Bossjob),https://bossjob.ph/en-us/job/network-engineer-pasig-431474,2026-01-24,2026-11-01
+QA-1,Quality Assurance Tester,QA Engineer,N-Compass TV Cebu (posted on Bossjob),https://bossjob.ph/job/qa-engineer-236969,2024-11-09,2026-11-01
+QA-2,Quality Assurance Tester,Manual QA Tester @Full Scale,Full Scale (posted on Remotive),https://remotive.com/remote/jobs/qa/manual-qa-tester-5102637,,2026-11-01
+QA-3,Quality Assurance Tester,"QA Engineer - Makati City, Metro Manila, Philippines - Hybrid",CloudPay,https://cloudpay.com/?p=21970,,2026-11-01
+QA-4,Quality Assurance Tester,QA Tester - Makati,Hunter's Hub Inc. (posted on Bossjob),https://bossjob.com/en-us/job/qa-tester-makati-280196,2025-03-07,2026-11-01
+QA-5,Quality Assurance Tester,15-1253.00 Software Quality Assurance Analysts and Testers,"O*NET OnLine, U.S. Department of Labor",https://www.onetonline.org/link/summary/15-1253.00,,2026-11-01
+QA-6,Quality Assurance Tester,Software QA Tester,Ninja Partners LLC (posted on Remotive),https://remotive.com/remote/jobs/qa/software-qa-tester-6272017,,2026-11-01
+QA-7,Quality Assurance Tester,QA Engineer,N-Compass TV Cebu (posted on Bossjob),https://bossjob.ph/job/qa-engineer-237225,2024-11-11,2026-11-01
+SD-1,Software Developer,Python Developer,HSI (posted on Bossjob),https://bossjob.ph/en-us/job/python-developer-manila-346826,2025-08-04,2026-11-01
+SD-2,Software Developer,Java Developer,Posted on Bossjob (employer name not shown separately),https://bossjob.ph/en-us/job/java-developer-taguig-520682,2026-06-24,2026-11-01
+SD-3,Software Developer,Software Developer,Dempsey Resource Management Inc.,https://bossjob.ph/en-us/job/software-engineer-pasig-434594,2026-01-29,2026-11-01
+SD-4,Software Developer,15-1252.00 Software Developers,"O*NET OnLine, U.S. Department of Labor",https://www.onetonline.org/link/summary/15-1252.00,2026,2026-11-01
+SD-5,Software Developer,API Developer,Hunter's Hub Inc. (posted on Bossjob),https://bossjob.com/job/api-developer-311006,2025-04-29,2026-11-01
+WD-1,Web Developer,Web Developer,Wingman Outsourcing (posted on Bossjob),https://bossjob.ph/job/web-developer-237101,2024-11-11,2026-11-01
+WD-2,Web Developer,Front End Developer | React | Work from home,Mashup Garage (posted on Bossjob),https://bossjob.ph/job/front-end-developer-react-work-from-home-235653,2024-11-09,2026-11-01
+WD-3,Web Developer,Web Developer,ALBERTO Group of Companies (posted on Bossjob),https://bossjob.com/en-us/job/web-developer-quezon-city-371741,2025-10-03,2026-11-01
+WD-4,Web Developer,Web Developers (summary report),"My Next Move, U.S. Department of Labor (O*NET data)",https://www.mynextmove.org/profile/summary/15-1254.00,2026-10-06,2026-11-01
+WD-5,Web Developer,Mid-Level Web Developer,J-K Network Services (posted on Bossjob),https://bossjob.com/en/job/web-developer-remote-335920,2025-07-02,2026-11-01
+WD-6,Web Developer,PHP Laravel Developer,Hivelabs Technologies Corporation (posted on Bossjob),https://bossjob.ph/en-us/job/php-developer-muntinlupa-473970,2026-03-25,2026-11-01

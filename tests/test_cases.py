@@ -187,6 +187,18 @@ def t_emoji_ignored():
     return f"skills={s}, unrecognized={u}", s == ["python", "sql"] and u == []
 
 
+def t_mock_profiles_integrity():
+    df = pd.read_csv(ROOT / "data" / "student_profiles_MOCK.csv")
+    per_role = df["true_role"].value_counts()
+    all_known = True
+    for raw in df["skills"]:
+        rec, unrec = si.clean_entries(str(raw).replace(";", ","), SKILLS, SYNONYMS)
+        all_known &= not unrec
+    ok = (len(df) >= 30 and set(per_role.index) == set(MATCHER.roles) and per_role.min() >= 3
+          and df["profile_id"].is_unique and all_known and (df["data_type"] == "mock").all())
+    return f"{len(df)} profiles, {per_role.min()} to {per_role.max()} per role, all skills recognized={all_known}", ok
+
+
 CASES = [
     ("T01", "empty", "empty string, nothing selected", "no skills, no results, no crash", t_empty),
     ("T02", "empty", "nothing selected, spaces typed", "no skills, no results", t_none_selected),
@@ -215,6 +227,7 @@ CASES = [
     ("T25", "unexpected", "typed: pythón, programación, sql", "python and sql recognized, accents removed, programacion listed as not recognized", t_accents_stripped),
     ("T26", "unexpected", "typed: データベース, python, !!!", "python recognized, the Japanese entry listed as not recognized, !!! ignored", t_other_script_listed),
     ("T27", "unexpected", "typed: emoji before python, a lone emoji, sql with a heart emoji", "python and sql recognized, nothing listed as not recognized", t_emoji_ignored),
+    ("T28", "normal", "student_profiles_MOCK.csv", "30 or more profiles, every role at least 3 times, unique IDs, every skill recognized, marked mock", t_mock_profiles_integrity),
 ]
 
 

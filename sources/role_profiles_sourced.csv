@@ -5,16 +5,16 @@ Software Developer,c#,SD-2; SD-3
 Software Developer,c++,SINGLE SOURCE SD-1
 Software Developer,javascript,UNVERIFIED
 Software Developer,typescript,SINGLE SOURCE SD-4
-Software Developer,object-oriented programming,SINGLE SOURCE SD-4
+Software Developer,object-oriented programming,SINGLE SOURCE SD-5
 Software Developer,data structures,SINGLE SOURCE SD-1
 Software Developer,algorithms,SINGLE SOURCE SD-1
 Software Developer,git,SD-1; SD-2; SD-4
-Software Developer,debugging,SD-1; SD-2; SD-3; SD-4
-Software Developer,unit testing,SINGLE SOURCE SD-4
+Software Developer,debugging,SD-1; SD-2; SD-3
+Software Developer,unit testing,SINGLE SOURCE SD-5
 Software Developer,agile,UNVERIFIED
-Software Developer,ci/cd,SINGLE SOURCE SD-4
-Software Developer,docker,UNVERIFIED
-Software Developer,rest api,UNVERIFIED
+Software Developer,ci/cd,SINGLE SOURCE SD-5
+Software Developer,docker,SINGLE SOURCE SD-5
+Software Developer,rest api,SINGLE SOURCE SD-5
 Software Developer,sql,SD-2; SD-4
 Software Developer,mysql,UNVERIFIED
 Software Developer,mongodb,UNVERIFIED
@@ -25,9 +25,9 @@ Software Developer,problem solving,SD-2; SD-3; SD-4
 Software Developer,teamwork,SD-1; SD-2; SD-3; SD-4
 Software Developer,communication,SD-1; SD-3; SD-4
 Software Developer,critical thinking,SINGLE SOURCE SD-4
-Software Developer,technical documentation,SINGLE SOURCE SD-4
+Software Developer,technical documentation,UNVERIFIED
 Software Developer,api testing,UNVERIFIED
-Software Developer,cloud computing,SINGLE SOURCE SD-4
+Software Developer,cloud computing,SINGLE SOURCE SD-5
 Software Developer,database design,UNVERIFIED
 Software Developer,attention to detail,SD-1; SD-2; SD-4
 Web Developer,html,WD-1; WD-2; WD-3
@@ -36,33 +36,33 @@ Web Developer,javascript,WD-1; WD-2; WD-3
 Web Developer,typescript,UNVERIFIED
 Web Developer,react,WD-1; WD-2; WD-3
 Web Developer,node.js,WD-1; WD-3
-Web Developer,php,SINGLE SOURCE WD-1
-Web Developer,django,UNVERIFIED
+Web Developer,php,WD-1; WD-5; WD-6
+Web Developer,django,SINGLE SOURCE WD-5
 Web Developer,flask,UNVERIFIED
-Web Developer,bootstrap,SINGLE SOURCE WD-4
+Web Developer,bootstrap,WD-4; WD-5
 Web Developer,responsive design,WD-1; WD-2; WD-3
 Web Developer,web accessibility,UNVERIFIED
 Web Developer,rest api,WD-2; WD-3
 Web Developer,git,WD-2; WD-3
-Web Developer,sql,UNVERIFIED
-Web Developer,mysql,UNVERIFIED
+Web Developer,sql,SINGLE SOURCE WD-6
+Web Developer,mysql,WD-5; WD-6
 Web Developer,mongodb,UNVERIFIED
 Web Developer,docker,SINGLE SOURCE WD-2
 Web Developer,debugging,SINGLE SOURCE WD-3
 Web Developer,agile,SINGLE SOURCE WD-2
-Web Developer,teamwork,WD-1; WD-2; WD-4
-Web Developer,communication,WD-1; WD-4
+Web Developer,teamwork,SINGLE SOURCE WD-6
+Web Developer,communication,WD-1; WD-6
 Web Developer,problem solving,SINGLE SOURCE WD-4
-Web Developer,attention to detail,SINGLE SOURCE WD-4
+Web Developer,attention to detail,WD-4; WD-6
 Web Developer,linux,UNVERIFIED
-Web Developer,technical documentation,SINGLE SOURCE WD-2
+Web Developer,technical documentation,UNVERIFIED
 Web Developer,unit testing,UNVERIFIED
-Web Developer,python,UNVERIFIED
-Web Developer,cloud computing,SINGLE SOURCE WD-2
-Web Developer,angular,SINGLE SOURCE WD-3
+Web Developer,python,SINGLE SOURCE WD-5
+Web Developer,cloud computing,UNVERIFIED
+Web Developer,angular,UNVERIFIED
 Data Analyst,sql,DA-1; DA-2; DA-3; DA-4
-Data Analyst,python,SINGLE SOURCE DA-2
-Data Analyst,r,SINGLE SOURCE DA-2
+Data Analyst,python,DA-2; DA-5
+Data Analyst,r,DA-2; DA-5
 Data Analyst,excel,DA-1; DA-2; DA-4
 Data Analyst,statistics,DA-2; DA-4
 Data Analyst,data visualization,DA-1; DA-2; DA-3
@@ -81,7 +81,7 @@ Data Analyst,critical thinking,SINGLE SOURCE DA-4
 Data Analyst,communication,DA-1; DA-2; DA-4
 Data Analyst,attention to detail,DA-2; DA-4
 Data Analyst,problem solving,DA-1; DA-2; DA-4
-Data Analyst,teamwork,DA-3; DA-4
+Data Analyst,teamwork,DA-3; DA-5
 Data Analyst,technical documentation,SINGLE SOURCE DA-4
 Data Analyst,microsoft sql server,SINGLE SOURCE DA-4
 Data Analyst,query optimization,UNVERIFIED
@@ -89,153 +89,153 @@ Data Analyst,database design,SINGLE SOURCE DA-4
 Data Analyst,git,SINGLE SOURCE DA-4
 Data Analyst,agile,UNVERIFIED
 Data Analyst,numpy,UNVERIFIED
-Database Administrator,sql,DBA-1; DBA-2; DBA-3; DBA-4
-Database Administrator,mysql,UNVERIFIED
-Database Administrator,postgresql,UNVERIFIED
+Database Administrator,sql,DBA-1; DBA-2; DBA-3; DBA-4; DBA-5
+Database Administrator,mysql,DBA-5; DBA-7
+Database Administrator,postgresql,DBA-5; DBA-6; DBA-7
 Database Administrator,microsoft sql server,DBA-1; DBA-2; DBA-3
-Database Administrator,oracle database,UNVERIFIED
-Database Administrator,mongodb,UNVERIFIED
+Database Administrator,oracle database,SINGLE SOURCE DBA-6
+Database Administrator,mongodb,SINGLE SOURCE DBA-5
 Database Administrator,database design,DBA-2; DBA-3; DBA-4
-Database Administrator,query optimization,DBA-1; DBA-2
+Database Administrator,query optimization,DBA-2; DBA-7
 Database Administrator,backup and recovery,DBA-1; DBA-2; DBA-3; DBA-4
-Database Administrator,database security,DBA-1; DBA-2; DBA-4
+Database Administrator,database security,DBA-1; DBA-4; DBA-5
 Database Administrator,stored procedures,UNVERIFIED
-Database Administrator,data modeling,DBA-3; DBA-4
-Database Administrator,indexing,SINGLE SOURCE DBA-1
-Database Administrator,replication,UNVERIFIED
+Database Administrator,data modeling,DBA-3; DBA-5
+Database Administrator,indexing,SINGLE SOURCE DBA-7
+Database Administrator,replication,DBA-6; DBA-7
 Database Administrator,etl,UNVERIFIED
-Database Administrator,linux,SINGLE SOURCE DBA-1
-Database Administrator,windows,UNVERIFIED
-Database Administrator,bash scripting,UNVERIFIED
+Database Administrator,linux,DBA-1; DBA-5
+Database Administrator,windows,SINGLE SOURCE DBA-5
+Database Administrator,bash scripting,SINGLE SOURCE DBA-5
 Database Administrator,powershell,SINGLE SOURCE DBA-1
-Database Administrator,cloud computing,DBA-1; DBA-2; DBA-3; DBA-4
+Database Administrator,cloud computing,DBA-1; DBA-2; DBA-3
 Database Administrator,virtualization,UNVERIFIED
-Database Administrator,encryption,SINGLE SOURCE DBA-1
+Database Administrator,encryption,DBA-1; DBA-5
 Database Administrator,identity and access management,UNVERIFIED
 Database Administrator,technical documentation,DBA-1; DBA-3
-Database Administrator,problem solving,DBA-3; DBA-4
-Database Administrator,attention to detail,DBA-1; DBA-4
-Database Administrator,communication,DBA-1; DBA-3; DBA-4
-Database Administrator,teamwork,DBA-1; DBA-2; DBA-3; DBA-4
+Database Administrator,problem solving,DBA-3; DBA-4; DBA-5
+Database Administrator,attention to detail,DBA-1; DBA-4; DBA-5
+Database Administrator,communication,DBA-1; DBA-3; DBA-4; DBA-5
+Database Administrator,teamwork,DBA-3; DBA-5
 Database Administrator,python,UNVERIFIED
 Database Administrator,log analysis,UNVERIFIED
-Network Administrator,tcp/ip,NA-1; NA-2; NA-4
-Network Administrator,dns,NA-1; NA-4
-Network Administrator,dhcp,SINGLE SOURCE NA-1
-Network Administrator,routing,NA-2; NA-4
-Network Administrator,switching,NA-1; NA-2; NA-4; NA-5
-Network Administrator,vlan,NA-1; NA-4
-Network Administrator,firewall configuration,NA-1; NA-3; NA-4
-Network Administrator,vpn,NA-1; NA-2; NA-3; NA-4
-Network Administrator,network monitoring,NA-1; NA-2; NA-3; NA-4; NA-5
+Network Administrator,tcp/ip,NA-1; NA-4
+Network Administrator,dns,NA-1; NA-4; NA-8
+Network Administrator,dhcp,NA-1; NA-9
+Network Administrator,routing,NA-4; NA-6; NA-7
+Network Administrator,switching,NA-1; NA-4; NA-7
+Network Administrator,vlan,NA-1; NA-4; NA-6
+Network Administrator,firewall configuration,NA-1; NA-3; NA-4; NA-6; NA-8
+Network Administrator,vpn,NA-1; NA-3; NA-4; NA-6; NA-8
+Network Administrator,network monitoring,NA-1; NA-3; NA-4; NA-7; NA-8
 Network Administrator,cisco ios,UNVERIFIED
-Network Administrator,network troubleshooting,NA-1; NA-2; NA-3; NA-4; NA-5
-Network Administrator,load balancing,NA-3; NA-4
+Network Administrator,network troubleshooting,NA-1; NA-3; NA-4; NA-5; NA-6; NA-8
+Network Administrator,load balancing,NA-3; NA-4; NA-6
 Network Administrator,subnetting,NA-1; NA-3; NA-4
-Network Administrator,wireless networking,SINGLE SOURCE NA-4
-Network Administrator,network security,NA-1; NA-2; NA-4; NA-5
-Network Administrator,windows,NA-2; NA-4
-Network Administrator,linux,SINGLE SOURCE NA-4
-Network Administrator,active directory,UNVERIFIED
+Network Administrator,wireless networking,NA-4; NA-6; NA-7
+Network Administrator,network security,NA-1; NA-4; NA-5; NA-6; NA-7; NA-8
+Network Administrator,windows,NA-4; NA-6; NA-8
+Network Administrator,linux,NA-4; NA-8
+Network Administrator,active directory,NA-6; NA-8
 Network Administrator,virtualization,SINGLE SOURCE NA-4
-Network Administrator,powershell,UNVERIFIED
-Network Administrator,bash scripting,UNVERIFIED
-Network Administrator,technical documentation,NA-1; NA-3; NA-4
-Network Administrator,problem solving,NA-1; NA-2; NA-5
-Network Administrator,communication,NA-1; NA-2; NA-5
-Network Administrator,teamwork,NA-1; NA-5
-Network Administrator,attention to detail,UNVERIFIED
-Network Administrator,remote support,UNVERIFIED
+Network Administrator,powershell,NA-6; NA-8
+Network Administrator,bash scripting,SINGLE SOURCE NA-8
+Network Administrator,technical documentation,NA-1; NA-3; NA-4; NA-7
+Network Administrator,problem solving,NA-1; NA-5; NA-8
+Network Administrator,communication,NA-1; NA-5; NA-7; NA-8
+Network Administrator,teamwork,SINGLE SOURCE NA-7
+Network Administrator,attention to detail,SINGLE SOURCE NA-8
+Network Administrator,remote support,SINGLE SOURCE NA-9
 Network Administrator,log analysis,UNVERIFIED
-Network Administrator,cloud computing,NA-2; NA-4
+Network Administrator,cloud computing,SINGLE SOURCE NA-4
 Network Administrator,identity and access management,UNVERIFIED
 Network Administrator,incident response,UNVERIFIED
 Network Administrator,hardware troubleshooting,SINGLE SOURCE NA-3
-Cybersecurity Analyst,network security,CA-1; CA-3; CA-4
-Cybersecurity Analyst,penetration testing,SINGLE SOURCE CA-3
-Cybersecurity Analyst,vulnerability assessment,CA-1; CA-3; CA-4
-Cybersecurity Analyst,incident response,CA-1; CA-2; CA-3; CA-4
-Cybersecurity Analyst,siem,CA-1; CA-2; CA-3
-Cybersecurity Analyst,encryption,CA-1; CA-4
-Cybersecurity Analyst,risk assessment,CA-1; CA-4
-Cybersecurity Analyst,malware analysis,SINGLE SOURCE CA-3
-Cybersecurity Analyst,security auditing,SINGLE SOURCE CA-2
+Cybersecurity Analyst,network security,CA-3; CA-6
+Cybersecurity Analyst,penetration testing,CA-3; CA-7; CA-8; CA-9
+Cybersecurity Analyst,vulnerability assessment,CA-3; CA-5; CA-6
+Cybersecurity Analyst,incident response,CA-1; CA-3; CA-5; CA-6
+Cybersecurity Analyst,siem,CA-1; CA-3; CA-5
+Cybersecurity Analyst,encryption,CA-1; CA-4; CA-6
+Cybersecurity Analyst,risk assessment,CA-1; CA-4; CA-6
+Cybersecurity Analyst,malware analysis,CA-3; CA-5
+Cybersecurity Analyst,security auditing,UNVERIFIED
 Cybersecurity Analyst,identity and access management,UNVERIFIED
-Cybersecurity Analyst,log analysis,CA-1; CA-2; CA-3
-Cybersecurity Analyst,threat intelligence,CA-2; CA-3
-Cybersecurity Analyst,firewall configuration,SINGLE SOURCE CA-4
-Cybersecurity Analyst,tcp/ip,CA-1; CA-2
-Cybersecurity Analyst,linux,SINGLE SOURCE CA-1
-Cybersecurity Analyst,windows,UNVERIFIED
+Cybersecurity Analyst,log analysis,CA-1; CA-3; CA-5
+Cybersecurity Analyst,threat intelligence,CA-3; CA-5
+Cybersecurity Analyst,firewall configuration,SINGLE SOURCE CA-6
+Cybersecurity Analyst,tcp/ip,SINGLE SOURCE CA-1
+Cybersecurity Analyst,linux,CA-1; CA-9
+Cybersecurity Analyst,windows,SINGLE SOURCE CA-9
 Cybersecurity Analyst,python,UNVERIFIED
 Cybersecurity Analyst,bash scripting,UNVERIFIED
-Cybersecurity Analyst,powershell,SINGLE SOURCE CA-2
+Cybersecurity Analyst,powershell,UNVERIFIED
 Cybersecurity Analyst,vpn,SINGLE SOURCE CA-1
-Cybersecurity Analyst,dns,SINGLE SOURCE CA-2
-Cybersecurity Analyst,active directory,UNVERIFIED
-Cybersecurity Analyst,cloud computing,SINGLE SOURCE CA-2
-Cybersecurity Analyst,technical documentation,CA-1; CA-2; CA-4
-Cybersecurity Analyst,critical thinking,UNVERIFIED
-Cybersecurity Analyst,problem solving,CA-2; CA-4
-Cybersecurity Analyst,attention to detail,CA-2; CA-4
-Cybersecurity Analyst,communication,CA-2; CA-4
-Cybersecurity Analyst,teamwork,CA-2; CA-4
+Cybersecurity Analyst,dns,UNVERIFIED
+Cybersecurity Analyst,active directory,SINGLE SOURCE CA-9
+Cybersecurity Analyst,cloud computing,UNVERIFIED
+Cybersecurity Analyst,technical documentation,SINGLE SOURCE CA-9
+Cybersecurity Analyst,critical thinking,SINGLE SOURCE CA-6
+Cybersecurity Analyst,problem solving,CA-4; CA-6
+Cybersecurity Analyst,attention to detail,CA-4; CA-9
+Cybersecurity Analyst,communication,CA-4; CA-7; CA-9
+Cybersecurity Analyst,teamwork,SINGLE SOURCE CA-9
 Cybersecurity Analyst,network monitoring,SINGLE SOURCE CA-4
 Cybersecurity Analyst,database security,UNVERIFIED
 Cybersecurity Analyst,git,UNVERIFIED
 Quality Assurance Tester,manual testing,QA-2; QA-3; QA-4
-Quality Assurance Tester,test automation,QA-1; QA-3; QA-4
-Quality Assurance Tester,selenium,QA-1; QA-3; QA-4
+Quality Assurance Tester,test automation,QA-1; QA-3; QA-4; QA-5
+Quality Assurance Tester,selenium,QA-1; QA-3; QA-4; QA-5
 Quality Assurance Tester,test case design,QA-1; QA-2; QA-3; QA-4
-Quality Assurance Tester,bug reporting,QA-1; QA-2; QA-3; QA-4
-Quality Assurance Tester,regression testing,QA-1; QA-2; QA-3; QA-4
+Quality Assurance Tester,bug reporting,QA-1; QA-2; QA-3; QA-5
+Quality Assurance Tester,regression testing,QA-1; QA-2; QA-3; QA-4; QA-5
 Quality Assurance Tester,api testing,QA-2; QA-3; QA-4
-Quality Assurance Tester,performance testing,QA-1; QA-4
-Quality Assurance Tester,jira,QA-1; QA-2; QA-4
-Quality Assurance Tester,unit testing,UNVERIFIED
+Quality Assurance Tester,performance testing,QA-1; QA-4; QA-5
+Quality Assurance Tester,jira,QA-1; QA-2; QA-4; QA-5
+Quality Assurance Tester,unit testing,SINGLE SOURCE QA-7
 Quality Assurance Tester,agile,QA-3; QA-4
-Quality Assurance Tester,python,UNVERIFIED
+Quality Assurance Tester,python,SINGLE SOURCE QA-7
 Quality Assurance Tester,java,SINGLE SOURCE QA-3
 Quality Assurance Tester,javascript,UNVERIFIED
 Quality Assurance Tester,sql,QA-1; QA-2; QA-4
-Quality Assurance Tester,git,SINGLE SOURCE QA-4
+Quality Assurance Tester,git,QA-4; QA-5
 Quality Assurance Tester,ci/cd,QA-3; QA-4
-Quality Assurance Tester,debugging,UNVERIFIED
-Quality Assurance Tester,rest api,SINGLE SOURCE QA-1
-Quality Assurance Tester,linux,UNVERIFIED
-Quality Assurance Tester,technical documentation,UNVERIFIED
-Quality Assurance Tester,attention to detail,QA-2; QA-4
-Quality Assurance Tester,critical thinking,UNVERIFIED
-Quality Assurance Tester,communication,QA-1; QA-2; QA-3; QA-4
-Quality Assurance Tester,teamwork,QA-1; QA-2; QA-3
-Quality Assurance Tester,problem solving,QA-1; QA-2; QA-4
+Quality Assurance Tester,debugging,SINGLE SOURCE QA-5
+Quality Assurance Tester,rest api,QA-1; QA-6
+Quality Assurance Tester,linux,SINGLE SOURCE QA-5
+Quality Assurance Tester,technical documentation,SINGLE SOURCE QA-5
+Quality Assurance Tester,attention to detail,QA-2; QA-4; QA-5
+Quality Assurance Tester,critical thinking,QA-5; QA-6
+Quality Assurance Tester,communication,QA-1; QA-2; QA-3; QA-4; QA-5
+Quality Assurance Tester,teamwork,QA-1; QA-2; QA-3; QA-5
+Quality Assurance Tester,problem solving,QA-1; QA-2; QA-4; QA-5
 Quality Assurance Tester,html,UNVERIFIED
 Quality Assurance Tester,docker,UNVERIFIED
-IT Support Specialist,help desk,IT-1; IT-2; IT-3; IT-4; IT-5
-IT Support Specialist,hardware troubleshooting,IT-1; IT-2; IT-3; IT-5
+IT Support Specialist,help desk,IT-1; IT-2; IT-3; IT-4; IT-5; IT-6
+IT Support Specialist,hardware troubleshooting,IT-1; IT-2; IT-3
 IT Support Specialist,ticketing systems,IT-1; IT-2; IT-3; IT-4
-IT Support Specialist,remote support,SINGLE SOURCE IT-3
-IT Support Specialist,windows,IT-1; IT-3; IT-4
+IT Support Specialist,remote support,IT-3; IT-7
+IT Support Specialist,windows,IT-1; IT-3; IT-4; IT-6
 IT Support Specialist,linux,SINGLE SOURCE IT-4
-IT Support Specialist,active directory,IT-1; IT-2; IT-3; IT-4
+IT Support Specialist,active directory,IT-1; IT-2; IT-3; IT-4; IT-6
 IT Support Specialist,os installation,UNVERIFIED
 IT Support Specialist,virtualization,SINGLE SOURCE IT-1
-IT Support Specialist,network troubleshooting,IT-1; IT-2; IT-3; IT-5
+IT Support Specialist,network troubleshooting,IT-1; IT-3; IT-5
 IT Support Specialist,tcp/ip,UNVERIFIED
-IT Support Specialist,dns,UNVERIFIED
+IT Support Specialist,dns,IT-7; IT-8
 IT Support Specialist,dhcp,UNVERIFIED
-IT Support Specialist,wireless networking,IT-1; IT-4; IT-5
-IT Support Specialist,technical documentation,IT-1; IT-2; IT-3
-IT Support Specialist,customer service,IT-1; IT-2; IT-3; IT-4; IT-5
-IT Support Specialist,communication,IT-1; IT-2; IT-3; IT-5
-IT Support Specialist,teamwork,IT-1; IT-3
-IT Support Specialist,problem solving,IT-1; IT-2; IT-3; IT-4; IT-5
-IT Support Specialist,attention to detail,SINGLE SOURCE IT-3
-IT Support Specialist,time management,IT-1; IT-3; IT-4
-IT Support Specialist,powershell,UNVERIFIED
-IT Support Specialist,vpn,SINGLE SOURCE IT-4
+IT Support Specialist,wireless networking,IT-1; IT-4
+IT Support Specialist,technical documentation,IT-1; IT-3
+IT Support Specialist,customer service,IT-1; IT-2; IT-3; IT-5; IT-6
+IT Support Specialist,communication,IT-1; IT-2; IT-3; IT-5; IT-6
+IT Support Specialist,teamwork,IT-1; IT-6
+IT Support Specialist,problem solving,IT-1; IT-4; IT-5; IT-6
+IT Support Specialist,attention to detail,IT-3; IT-6
+IT Support Specialist,time management,SINGLE SOURCE IT-6
+IT Support Specialist,powershell,IT-6; IT-7
+IT Support Specialist,vpn,IT-4; IT-6
 IT Support Specialist,cloud computing,SINGLE SOURCE IT-1
-IT Support Specialist,backup and recovery,UNVERIFIED
+IT Support Specialist,backup and recovery,SINGLE SOURCE IT-7
 IT Support Specialist,identity and access management,SINGLE SOURCE IT-4
-IT Support Specialist,excel,SINGLE SOURCE IT-4
+IT Support Specialist,excel,IT-4; IT-6
 IT Support Specialist,network security,UNVERIFIED
