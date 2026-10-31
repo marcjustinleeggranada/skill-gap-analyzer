@@ -63,7 +63,7 @@ Backed by 2 or more sources: 21. Single source: 7. Unverified: 4.
 - **NA-3.** Department of the Interior and Local Government, Region XII. (2018, February 14). *Announcement: Network Administrator (1), Regional Office* [Vacancy announcement]. https://mail.region12.dilg.gov.ph/sites/default/files/reportsresources/career-opportunities/954-network-administrator.pdf
 - **NA-4.** CompTIA. (2014). *CompTIA Network+ Certification Exam Objectives (N10-006)* [Exam objectives]. https://comptia.jp/pdf/comptia-network-(n10-006)_examobjectives.pdf
 - **NA-5.** U.S. Bureau of Labor Statistics. (2026, August 27). *Network and Computer Systems Administrators*. In *Occupational outlook handbook*. https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm
-- **NA-6.** Posted on Bossjob (employer not shown separately). (2025, May 22). *Network Administrator - Need Immediate Joiners* [Job posting]. https://bossjob.com/job/network-administrator-need-immediate-joiners-322077
+- **NA-6.** Employer not shown. (2025, May 22). *Network Administrator - Need Immediate Joiners* [Job posting]. Bossjob. https://bossjob.com/job/network-administrator-need-immediate-joiners-322077
 - **NA-7.** Indra Philippines. (2025, May 13). *Network Engineer* [Job posting]. Bossjob. https://bossjob.com/en-us/job/network-administrator-317076
 - **NA-8.** U.S. Department of Labor, Employment and Training Administration. (2026). *15-1244.00 Network and Computer Systems Administrators* [Occupation summary report]. O*NET OnLine. https://www.onetonline.org/link/summary/15-1244.00
 - **NA-9.** J-K Network Services. (2026, January 24). *Network Engineer* [Job posting]. Bossjob. https://bossjob.ph/en-us/job/network-engineer-pasig-431474

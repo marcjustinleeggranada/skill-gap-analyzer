@@ -137,4 +137,4 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 - Added Appendix A to the paper: the 54 sources in APA style, grouped by role, with the same IDs as the source column in `data/role_profiles.csv`.
 - The paper Attribution section now points to Appendix A.
 - Fixed `sources/sources_apa.md`: the archive note now states the real copy counts, and a doubled period after "Inc." is removed.
-- Two entries in the paper appendix differ in form from `sources_apa.md`: NA-6 reads "Employer not shown" with Bossjob as the site. Update `sources/sources_apa.md` to match if the group reuses it.
+- Changed NA-6 in `sources/sources_apa.md` to "Employer not shown" with Bossjob as the site, so it matches the paper appendix.
