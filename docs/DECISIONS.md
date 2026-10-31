@@ -124,3 +124,10 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 - Chapter 4 points to the screenshots and test case file in the project files; the group still picks which screenshots go in the final document.
 - Ali et al. (2022) reference now has volume 41, issue 1 from the journal site. Page numbers are not listed there. The JITK journal name was checked against the journal page.
 - The test set stays manual. No real student profiles will be collected.
+
+## 2026-11-01 (recheck of pages reported closed)
+
+- Reopened 19 of the 20 pages the archive run reported closed, gone or expired (all except NA-4). All 19 loaded with a requirements section. Results are in `sources/recheck_closed.csv`.
+- The two checks disagree, so the closed status is not settled. The sourcing counts (128 backed, 62 single source, 50 unverified) stay as they are until the cause is found, such as a block by region or a cached copy on one side.
+- Checked by hand in a browser, the 20 pages decide whether any source drops out under the strict rule. The owner does this check.
+- The paper and the report now say archive copies exist for 22 of the 54 sources (18 PDFs, and 4 more with a Wayback Machine link only) and that 32 have none.
