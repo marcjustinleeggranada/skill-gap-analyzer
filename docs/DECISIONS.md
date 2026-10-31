@@ -75,3 +75,11 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 - NA-2 loads but shows "Job closed". CA-2 no longer exists. Both are kept in place until the owner decides.
 - No archived copies were saved. The workspace cannot reach archive sites, so web archive links and PDFs of the postings are still open. The owner can save them from a browser, or approve a fetch of the archive service.
 - `data/role_profiles.csv` was not changed.
+
+## 2026-11-01 (paper and weekly report)
+
+- Paper Chapter 3, the ethics section and the weekly report now say plainly that no student data was collected and that the test set is 32 manually created profiles, 4 per role.
+- The paper and the weekly report call the 100% top-3 result (32 of 32) optimistic, because the profiles are clean and typical. They say it shows the method works and does not predict real students.
+- Objectives, Scope, Limitations, Significance and the testing plan changed from about 30 volunteer profiles to the 32 manual ones. One wrong result now moves accuracy about 3.1 points.
+- Chapter 4 holds the first-run numbers from Build_Status.md. Screenshots and the error list are added after final testing.
+- Still to align: the paper says roles have 25 to 40 skills and a list of about 100 skills; the build has 28 to 32 skills and a list of 112.
