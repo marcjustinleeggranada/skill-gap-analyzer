@@ -8,7 +8,7 @@ A student selects the IT skills they have from a list of 112 skills. The Matchin
 
 ## Status of the data
 
-- The 8 role profiles in `data/role_profiles.csv` are drafts. Every row is marked `UNVERIFIED` in the `source` column. The team must check each skill against a real job posting or curriculum and write the reference before the paper cites the profiles.
+- The 8 role profiles in `data/role_profiles.csv` are partly sourced. Of 240 rows, 107 are backed by 2 or more sources, 61 by 1 source and 72 are still `UNVERIFIED`. Source IDs in the `source` column refer to `sources/sources.csv`. The team must check the single-source and unverified rows before the paper cites them.
 - `data/student_profiles_SAMPLE.csv` holds 30 made-up profiles. Any accuracy computed from it only checks that the code runs. It is not the project's accuracy. Every report built from it starts with the line "SAMPLE DATA, NOT A PROJECT RESULT".
 - To use real profiles, save them as `data/student_profiles.csv` (columns: `profile_id`, `skills`, `true_role`; skills separated by semicolons). The evaluation code picks that file first and needs no change.
 
@@ -96,7 +96,7 @@ To change a role or its skills, edit `data/role_profiles.csv`. Every skill in it
 
 ## Limits
 
-- The role profiles are unverified drafts until the team adds real sources.
+- 72 of 240 role skills have no source yet, and 61 rest on one source.
 - Matching uses skill names only. It does not weigh how well a student knows a skill.
 - Roles with many shared skills (Software Developer and Web Developer, Network Administrator and IT Support Specialist) are easy to confuse. Expect errors there.
 - English only. No resume reading, live job scraping or salary prediction.
@@ -114,4 +114,4 @@ To change a role or its skills, edit `data/role_profiles.csv`. Every skill in it
 - pandas (reading CSV files)
 - Streamlit (web screen)
 - Python standard library `difflib` (close spelling matches)
-- Role skills, skill list and synonyms: drafted from general knowledge. Not yet checked against postings.
+- Role skills: sources are listed in `sources/sources_apa.md`. Skill list and synonyms: drafted from general knowledge.

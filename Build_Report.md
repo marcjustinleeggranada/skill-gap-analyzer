@@ -106,8 +106,8 @@ Collecting usage statistics. To deactivate, set browser.gatherUsageStats to fals
   You can now view your Streamlit app in your browser.
 
   Local URL: http://localhost:8502
-  Network URL: http://192.168.1.4:8502
-  External URL: http://103.208.67.110:8502
+  Network URL: (address removed)
+  External URL: (address removed)
 ```
 
 - Opened in a browser: yes, at `http://localhost:8502`. The page showed the title, the description, the notice that the role profiles are drafts, the skills list, the typed box and the Analyze button.

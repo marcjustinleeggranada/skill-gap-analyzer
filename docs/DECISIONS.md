@@ -18,7 +18,7 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 ## 2026-11-01
 
 - Sourcing: role skills were checked against 34 opened pages (job postings, Occupational Outlook Handbook and O*NET OnLine summaries, one CompTIA exam objectives document). Output is in `sources/`.
-- Sourcing rule applied: 2 or more sources for a role back a skill; 1 source is marked SINGLE SOURCE; no source is UNVERIFIED. A skill in a posting's skill tags counts as named.
+- Sourcing rule applied: 2 or more sources for a role back a skill; 1 source is marked SINGLE SOURCE; skills with no source stay UNVERIFIED. A skill in a posting's skill tags counts as named.
 - Sourcing result: 107 skills backed, 61 single source, 72 unverified, out of 240. `data/role_profiles.csv` is unchanged; the coding side decides when to adopt the sourced file.
 - Suggested additions are listed in `sources/sources_apa.md` and were not added to the CSV.
 - Adopted: `data/role_profiles.csv` now carries the sourced `source` column. Roles and skills are unchanged. Source IDs refer to `sources/sources.csv`.
@@ -34,3 +34,10 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 - Typed words of 5 or more letters are matched to the closest skill at a spelling similarity of 0.8 or higher.
 - Git workflow: run `git pull` before starting any work. Push updates and decisions after each change.
 - Commits use the author's name only: Marc Justin Lee G. Granada.
+
+## 2026-11-01 (source check)
+
+- Spot-checked 3 sources by opening them. SD-1 supports all 10 attributed skills. SD-4 supports its skills, loosely for unit testing, ci/cd, debugging and technical documentation. CA-2 returned "Job Not Found".
+- 14 Cybersecurity Analyst rows cite CA-2. 4 would have no source without it and 6 would drop to one source. The team decides whether to replace it.
+- Updated README.md and Build_Status.md for the sourced role profiles.
+- Removed network addresses from Build_Report.md.

@@ -54,7 +54,7 @@ One wrong result moves top-3 accuracy by about 3.3 points on 30 profiles.
 
 ## Assumptions
 
-- Web search was not used. Role skills, the skill list and the synonyms come from general knowledge, so every `role_profiles.csv` row is `UNVERIFIED`. No source was invented.
+- Role skills were checked against 34 opened pages in a separate sourcing pass (see `sources/`). The skill list and synonyms come from general knowledge. No source was invented. Rows without a source keep `UNVERIFIED`.
 - Role sizes are 28 to 32 skills. The skill list has 112 skills (spec says about 100).
 - Typed words of 5 or more letters are matched to the closest skill when the spelling similarity is at least 0.8 (Python `difflib`). Shorter words must match exactly or through the synonym table.
 - The `k8s` synonym from the decisions file is left out because no Kubernetes skill is in the list.
@@ -65,7 +65,9 @@ One wrong result moves top-3 accuracy by about 3.3 points on 30 profiles.
 
 ## Still UNVERIFIED
 
-- All 240 rows in `role_profiles.csv` (8 roles, 240 role-skill pairs).
+- 72 of 240 rows in `role_profiles.csv` have no source. 61 more rows rest on a single source.
+- Source CA-2 (a job posting) returned "Job Not Found" on 2026-11-01. 14 Cybersecurity Analyst rows cite it. 4 of them have no other source and 6 would drop to one source. Replace the posting or keep an archived copy before the paper cites it.
+- Source SD-4 (O*NET OnLine page) supports unit testing, ci/cd, debugging and technical documentation only loosely, through related items.
 - The synonym table and the skill categories.
 
 ## Open items for the team
