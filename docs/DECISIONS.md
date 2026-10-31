@@ -82,4 +82,4 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 - The paper and the weekly report call the 100% top-3 result (32 of 32) optimistic, because the profiles are clean and typical. They say it shows the method works and does not predict real students.
 - Objectives, Scope, Limitations, Significance and the testing plan changed from about 30 volunteer profiles to the 32 manual ones. One wrong result now moves accuracy about 3.1 points.
 - Chapter 4 holds the first-run numbers from Build_Status.md. Screenshots and the error list are added after final testing.
-- Still to align: the paper says roles have 25 to 40 skills and a list of about 100 skills; the build has 28 to 32 skills and a list of 112.
+- The paper describes the system with the real numbers: 28 to 32 skills per role and a list of 112 skills. The original targets (25 to 40 skills, about 100 listed) stay as planned figures in parentheses.
