@@ -27,8 +27,8 @@ st.write(
 )
 if matcher.unverified:
     st.info(
-        "The role profiles are drafts. Their skills have not yet been checked "
-        "against real job postings."
+        "The role profiles are drafts. Some of their skills have not yet been "
+        "checked against real job postings."
     )
 
 selected = st.multiselect("Skills you have", options=sorted(skills))

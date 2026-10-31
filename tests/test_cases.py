@@ -172,6 +172,21 @@ def t_zero_score_hidden():
     return f"{[(x['role'], x['score']) for x in r]}", ok
 
 
+def t_accents_stripped():
+    s, u, r = analyze([], "pythón, programación, sql")
+    return f"skills={s}, unrecognized={u}", s == ["python", "sql"] and u == ["programacion"]
+
+
+def t_other_script_listed():
+    s, u, r = analyze([], "データベース, python, !!!")
+    return f"skills={s}, unrecognized={u}", s == ["python"] and u == ["データベース"]
+
+
+def t_emoji_ignored():
+    s, u, r = analyze([], "\U0001F40D python, \U0001F680, sql \u2764")
+    return f"skills={s}, unrecognized={u}", s == ["python", "sql"] and u == []
+
+
 CASES = [
     ("T01", "empty", "empty string, nothing selected", "no skills, no results, no crash", t_empty),
     ("T02", "empty", "nothing selected, spaces typed", "no skills, no results", t_none_selected),
@@ -197,6 +212,9 @@ CASES = [
     ("T22", "normal", "same input twice", "identical output", t_same_input_same_output),
     ("T23", "normal", "role_profiles.csv", "8 roles, 25 to 40 skills each, all in skills.csv", t_data_integrity),
     ("T24", "unexpected", "html, css, react", "fewer than 3 roles, no role with a score of 0", t_zero_score_hidden),
+    ("T25", "unexpected", "typed: pythón, programación, sql", "python and sql recognized, accents removed, programacion listed as not recognized", t_accents_stripped),
+    ("T26", "unexpected", "typed: データベース, python, !!!", "python recognized, the Japanese entry listed as not recognized, !!! ignored", t_other_script_listed),
+    ("T27", "unexpected", "typed: emoji before python, a lone emoji, sql with a heart emoji", "python and sql recognized, nothing listed as not recognized", t_emoji_ignored),
 ]
 
 

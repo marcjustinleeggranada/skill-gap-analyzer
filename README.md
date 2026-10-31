@@ -20,6 +20,8 @@ Python 3.10 or newer.
 pip install -r requirements.txt
 ```
 
+On Windows, the `python` command may open the Microsoft Store instead of running Python. Use the launcher `py` in its place, for example `py -m venv .venv`, then `.venv\Scripts\python -m pip install -r requirements.txt`. Or turn off the python entries under App execution aliases in Windows Settings.
+
 ## Run the screen
 
 ```
@@ -49,7 +51,7 @@ One wrong result moves top-3 accuracy by about 3.3 points on 30 profiles, so the
 python tests/test_cases.py
 ```
 
-This runs 24 test cases and writes `results/test_cases.csv` with the input, expected result, actual result and pass or fail for each. `pytest tests/test_cases.py` runs the same cases.
+This runs 27 test cases and writes `results/test_cases.csv` with the input, expected result, actual result and pass or fail for each. After `pip install -r requirements-dev.txt`, `pytest tests/test_cases.py` runs the same cases.
 
 ## How it works
 
@@ -61,7 +63,7 @@ This runs 24 test cases and writes `results/test_cases.csv` with the input, expe
 
 No model is trained and no answer is stored. Every score comes from the skills shared between the student and the role. Skills that appear in many roles (for example teamwork) get a low weight. Skills that appear in one role (for example penetration testing) get a high weight.
 
-The Skill Input module cleans typed text, applies the synonym table in `data/synonyms.csv`, corrects close misspellings of words with 5 or more letters, and keeps only terms found in `data/skills.csv`.
+The Skill Input module cleans typed text, applies the synonym table in `data/synonyms.csv`, corrects close misspellings of words with 5 or more letters, removes accents from Latin letters, and keeps only terms found in `data/skills.csv`. Entries in other scripts, such as Japanese, are listed as not recognized.
 
 ## Files
 
@@ -75,6 +77,11 @@ tests/test_cases.py    test cases
 data/                  skills, synonyms, role profiles, sample student profiles
 results/               evaluation and test output
 requirements.txt       pinned library versions
+requirements-dev.txt   adds pytest
+docs/DECISIONS.md      decision log
+docs/GIT_RULES.md      commit identity and push rules
+sources/               role skill sources (sourcing pass)
+.githooks/pre-push     push check for commit identity
 ```
 
 To change a role or its skills, edit `data/role_profiles.csv`. Every skill in it must also appear in `data/skills.csv`.

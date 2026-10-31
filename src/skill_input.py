@@ -5,6 +5,7 @@ that appear in data/skills.csv.
 """
 import difflib
 import re
+import unicodedata
 from pathlib import Path
 
 import pandas as pd
@@ -36,9 +37,21 @@ def load_synonyms(path=None):
     }
 
 
+def _strip_accents(text):
+    """Turn accented Latin letters into plain letters ("programación" -> "programacion").
+
+    Characters from other scripts are kept as they are.
+    """
+    out = []
+    for ch in text:
+        base = "".join(c for c in unicodedata.normalize("NFKD", ch) if not unicodedata.combining(c))
+        out.append(base if base and base.isascii() else ch)
+    return "".join(out)
+
+
 def normalize(text):
-    """Lowercase, drop unsupported characters and collapse spaces."""
-    text = str(text).lower()
+    """Lowercase, strip accents, drop unsupported characters and collapse spaces."""
+    text = _strip_accents(str(text).lower())
     text = _ALLOWED.sub(" ", text)
     text = re.sub(r"\s+", " ", text).strip(" .-/")
     return text
@@ -78,6 +91,11 @@ def clean_entries(typed_text, valid_skills, synonyms):
     for raw in _SPLIT.split(typed_text):
         term = normalize(raw)
         if not term:
+            # Nothing usable is left. If the entry had letters (another script),
+            # list it as not recognized. Symbols and emoji alone are ignored.
+            letters = "".join(ch for ch in raw if ch.isalpha() or ch == " ").strip()[:40]
+            if letters and letters not in unrecognized:
+                unrecognized.append(letters)
             continue
         skill = resolve_term(term, valid, synonyms)
         if skill is None:

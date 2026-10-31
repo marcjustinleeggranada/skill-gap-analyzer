@@ -41,3 +41,14 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 - 14 Cybersecurity Analyst rows cite CA-2. 4 would have no source without it and 6 would drop to one source. The team decides whether to replace it.
 - Updated README.md and Build_Status.md for the sourced role profiles.
 - Removed network addresses from Build_Report.md.
+
+## 2026-11-01 (git guard and input fixes)
+
+- Commit identity: Marc Justin Lee G. Granada, granadamarc96@gmail.com. No other email is correct. Rules and the push check are in `docs/GIT_RULES.md` and `.githooks/pre-push`.
+- Two earlier commits still carry granadam96@gmail.com. Correcting them needs a history rewrite and a force push, which only the owner approves. Steps are in `docs/GIT_RULES.md`.
+- Never rewrite history or force-push without the owner's approval.
+- Strip accents from Latin letters in typed skills. List entries in other scripts as not recognized. Symbols and emoji alone stay ignored.
+- Add `requirements-dev.txt` for pytest and a Windows `py` note in the README.
+- Test count is now 27.
+- Reword the on-screen draft notice, because 107 of 240 role skills now have 2 or more sources. Screenshots 01 to 06 show the old wording and need retaking.
+- The repository is public. The earlier build report put a network address into commit history. Visibility and history cleanup are the owner's decision.
