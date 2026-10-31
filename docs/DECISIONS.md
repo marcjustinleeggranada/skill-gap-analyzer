@@ -142,7 +142,7 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 ## 2026-11-01 (correction: browser check of pages reported closed)
 
 - Replaced the earlier recheck result. The earlier fetch tool returned cached content and called 19 closed pages open. That was wrong.
-- Opened the pages in a real Chrome browser on 2026-11-01. 29 sources are closed or gone: the 20 flagged ones plus CA-5, QA-4, SD-5, WD-3, DA-2, DA-5, IT-2, NA-1, NA-6 and NA-7.
+- Opened the pages in a real Chrome browser on 2026-11-01. 30 sources are closed or gone: the 20 flagged ones plus CA-5, QA-4, SD-5, WD-3, DA-2, DA-5, IT-2, NA-1, NA-6 and NA-7.
 - QA-3 (Cloudflare error 522) and NA-3 (connection reset) could not be reached. They stay counted as live until a later check.
 - The four Bureau of Labor Statistics pages (CA-4, DBA-4, IT-5, NA-5) load.
 - The `result` column in `sources/link_check.csv` came from the same fetch tool and is not reliable.
