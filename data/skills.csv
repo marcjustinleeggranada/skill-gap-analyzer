@@ -1,0 +1,113 @@
+skill,category
+python,language
+java,language
+javascript,language
+typescript,language
+c#,language
+c++,language
+php,language
+kotlin,language
+r,language
+bash scripting,language
+powershell,language
+html,web
+css,web
+react,web
+node.js,web
+angular,web
+django,web
+flask,web
+laravel,web
+rest api,web
+responsive design,web
+web accessibility,web
+bootstrap,web
+wordpress,web
+sql,database
+mysql,database
+postgresql,database
+microsoft sql server,database
+oracle database,database
+mongodb,database
+database design,database
+query optimization,database
+backup and recovery,database
+database security,database
+stored procedures,database
+data modeling,database
+indexing,database
+replication,database
+excel,data
+data visualization,data
+tableau,data
+power bi,data
+statistics,data
+data cleaning,data
+pandas,data
+numpy,data
+machine learning,data
+etl,data
+reporting,data
+data analysis,data
+tcp/ip,networking
+dns,networking
+dhcp,networking
+routing,networking
+switching,networking
+vlan,networking
+firewall configuration,networking
+vpn,networking
+network monitoring,networking
+cisco ios,networking
+wireless networking,networking
+network troubleshooting,networking
+load balancing,networking
+subnetting,networking
+network security,security
+penetration testing,security
+vulnerability assessment,security
+incident response,security
+siem,security
+encryption,security
+risk assessment,security
+malware analysis,security
+security auditing,security
+identity and access management,security
+log analysis,security
+threat intelligence,security
+manual testing,testing
+test automation,testing
+selenium,testing
+test case design,testing
+bug reporting,testing
+regression testing,testing
+api testing,testing
+performance testing,testing
+jira,testing
+unit testing,testing
+windows,systems
+linux,systems
+active directory,systems
+help desk,systems
+hardware troubleshooting,systems
+ticketing systems,systems
+remote support,systems
+os installation,systems
+virtualization,systems
+cloud computing,systems
+technical documentation,systems
+git,tools
+docker,tools
+ci/cd,tools
+agile,tools
+object-oriented programming,tools
+data structures,tools
+algorithms,tools
+debugging,tools
+teamwork,soft skill
+communication,soft skill
+problem solving,soft skill
+customer service,soft skill
+time management,soft skill
+attention to detail,soft skill
+critical thinking,soft skill

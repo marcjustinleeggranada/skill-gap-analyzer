@@ -1,0 +1,241 @@
+role,skill,source
+Software Developer,python,UNVERIFIED
+Software Developer,java,UNVERIFIED
+Software Developer,c#,UNVERIFIED
+Software Developer,c++,UNVERIFIED
+Software Developer,javascript,UNVERIFIED
+Software Developer,typescript,UNVERIFIED
+Software Developer,object-oriented programming,UNVERIFIED
+Software Developer,data structures,UNVERIFIED
+Software Developer,algorithms,UNVERIFIED
+Software Developer,git,UNVERIFIED
+Software Developer,debugging,UNVERIFIED
+Software Developer,unit testing,UNVERIFIED
+Software Developer,agile,UNVERIFIED
+Software Developer,ci/cd,UNVERIFIED
+Software Developer,docker,UNVERIFIED
+Software Developer,rest api,UNVERIFIED
+Software Developer,sql,UNVERIFIED
+Software Developer,mysql,UNVERIFIED
+Software Developer,mongodb,UNVERIFIED
+Software Developer,linux,UNVERIFIED
+Software Developer,bash scripting,UNVERIFIED
+Software Developer,jira,UNVERIFIED
+Software Developer,problem solving,UNVERIFIED
+Software Developer,teamwork,UNVERIFIED
+Software Developer,communication,UNVERIFIED
+Software Developer,critical thinking,UNVERIFIED
+Software Developer,technical documentation,UNVERIFIED
+Software Developer,api testing,UNVERIFIED
+Software Developer,cloud computing,UNVERIFIED
+Software Developer,database design,UNVERIFIED
+Software Developer,attention to detail,UNVERIFIED
+Web Developer,html,UNVERIFIED
+Web Developer,css,UNVERIFIED
+Web Developer,javascript,UNVERIFIED
+Web Developer,typescript,UNVERIFIED
+Web Developer,react,UNVERIFIED
+Web Developer,node.js,UNVERIFIED
+Web Developer,php,UNVERIFIED
+Web Developer,django,UNVERIFIED
+Web Developer,flask,UNVERIFIED
+Web Developer,bootstrap,UNVERIFIED
+Web Developer,responsive design,UNVERIFIED
+Web Developer,web accessibility,UNVERIFIED
+Web Developer,rest api,UNVERIFIED
+Web Developer,git,UNVERIFIED
+Web Developer,sql,UNVERIFIED
+Web Developer,mysql,UNVERIFIED
+Web Developer,mongodb,UNVERIFIED
+Web Developer,docker,UNVERIFIED
+Web Developer,debugging,UNVERIFIED
+Web Developer,agile,UNVERIFIED
+Web Developer,teamwork,UNVERIFIED
+Web Developer,communication,UNVERIFIED
+Web Developer,problem solving,UNVERIFIED
+Web Developer,attention to detail,UNVERIFIED
+Web Developer,linux,UNVERIFIED
+Web Developer,technical documentation,UNVERIFIED
+Web Developer,unit testing,UNVERIFIED
+Web Developer,python,UNVERIFIED
+Web Developer,cloud computing,UNVERIFIED
+Web Developer,angular,UNVERIFIED
+Data Analyst,sql,UNVERIFIED
+Data Analyst,python,UNVERIFIED
+Data Analyst,r,UNVERIFIED
+Data Analyst,excel,UNVERIFIED
+Data Analyst,statistics,UNVERIFIED
+Data Analyst,data visualization,UNVERIFIED
+Data Analyst,tableau,UNVERIFIED
+Data Analyst,power bi,UNVERIFIED
+Data Analyst,pandas,UNVERIFIED
+Data Analyst,data cleaning,UNVERIFIED
+Data Analyst,data analysis,UNVERIFIED
+Data Analyst,reporting,UNVERIFIED
+Data Analyst,etl,UNVERIFIED
+Data Analyst,machine learning,UNVERIFIED
+Data Analyst,mysql,UNVERIFIED
+Data Analyst,postgresql,UNVERIFIED
+Data Analyst,data modeling,UNVERIFIED
+Data Analyst,critical thinking,UNVERIFIED
+Data Analyst,communication,UNVERIFIED
+Data Analyst,attention to detail,UNVERIFIED
+Data Analyst,problem solving,UNVERIFIED
+Data Analyst,teamwork,UNVERIFIED
+Data Analyst,technical documentation,UNVERIFIED
+Data Analyst,microsoft sql server,UNVERIFIED
+Data Analyst,query optimization,UNVERIFIED
+Data Analyst,database design,UNVERIFIED
+Data Analyst,git,UNVERIFIED
+Data Analyst,agile,UNVERIFIED
+Data Analyst,numpy,UNVERIFIED
+Database Administrator,sql,UNVERIFIED
+Database Administrator,mysql,UNVERIFIED
+Database Administrator,postgresql,UNVERIFIED
+Database Administrator,microsoft sql server,UNVERIFIED
+Database Administrator,oracle database,UNVERIFIED
+Database Administrator,mongodb,UNVERIFIED
+Database Administrator,database design,UNVERIFIED
+Database Administrator,query optimization,UNVERIFIED
+Database Administrator,backup and recovery,UNVERIFIED
+Database Administrator,database security,UNVERIFIED
+Database Administrator,stored procedures,UNVERIFIED
+Database Administrator,data modeling,UNVERIFIED
+Database Administrator,indexing,UNVERIFIED
+Database Administrator,replication,UNVERIFIED
+Database Administrator,etl,UNVERIFIED
+Database Administrator,linux,UNVERIFIED
+Database Administrator,windows,UNVERIFIED
+Database Administrator,bash scripting,UNVERIFIED
+Database Administrator,powershell,UNVERIFIED
+Database Administrator,cloud computing,UNVERIFIED
+Database Administrator,virtualization,UNVERIFIED
+Database Administrator,encryption,UNVERIFIED
+Database Administrator,identity and access management,UNVERIFIED
+Database Administrator,technical documentation,UNVERIFIED
+Database Administrator,problem solving,UNVERIFIED
+Database Administrator,attention to detail,UNVERIFIED
+Database Administrator,communication,UNVERIFIED
+Database Administrator,teamwork,UNVERIFIED
+Database Administrator,python,UNVERIFIED
+Database Administrator,log analysis,UNVERIFIED
+Network Administrator,tcp/ip,UNVERIFIED
+Network Administrator,dns,UNVERIFIED
+Network Administrator,dhcp,UNVERIFIED
+Network Administrator,routing,UNVERIFIED
+Network Administrator,switching,UNVERIFIED
+Network Administrator,vlan,UNVERIFIED
+Network Administrator,firewall configuration,UNVERIFIED
+Network Administrator,vpn,UNVERIFIED
+Network Administrator,network monitoring,UNVERIFIED
+Network Administrator,cisco ios,UNVERIFIED
+Network Administrator,network troubleshooting,UNVERIFIED
+Network Administrator,load balancing,UNVERIFIED
+Network Administrator,subnetting,UNVERIFIED
+Network Administrator,wireless networking,UNVERIFIED
+Network Administrator,network security,UNVERIFIED
+Network Administrator,windows,UNVERIFIED
+Network Administrator,linux,UNVERIFIED
+Network Administrator,active directory,UNVERIFIED
+Network Administrator,virtualization,UNVERIFIED
+Network Administrator,powershell,UNVERIFIED
+Network Administrator,bash scripting,UNVERIFIED
+Network Administrator,technical documentation,UNVERIFIED
+Network Administrator,problem solving,UNVERIFIED
+Network Administrator,communication,UNVERIFIED
+Network Administrator,teamwork,UNVERIFIED
+Network Administrator,attention to detail,UNVERIFIED
+Network Administrator,remote support,UNVERIFIED
+Network Administrator,log analysis,UNVERIFIED
+Network Administrator,cloud computing,UNVERIFIED
+Network Administrator,identity and access management,UNVERIFIED
+Network Administrator,incident response,UNVERIFIED
+Network Administrator,hardware troubleshooting,UNVERIFIED
+Cybersecurity Analyst,network security,UNVERIFIED
+Cybersecurity Analyst,penetration testing,UNVERIFIED
+Cybersecurity Analyst,vulnerability assessment,UNVERIFIED
+Cybersecurity Analyst,incident response,UNVERIFIED
+Cybersecurity Analyst,siem,UNVERIFIED
+Cybersecurity Analyst,encryption,UNVERIFIED
+Cybersecurity Analyst,risk assessment,UNVERIFIED
+Cybersecurity Analyst,malware analysis,UNVERIFIED
+Cybersecurity Analyst,security auditing,UNVERIFIED
+Cybersecurity Analyst,identity and access management,UNVERIFIED
+Cybersecurity Analyst,log analysis,UNVERIFIED
+Cybersecurity Analyst,threat intelligence,UNVERIFIED
+Cybersecurity Analyst,firewall configuration,UNVERIFIED
+Cybersecurity Analyst,tcp/ip,UNVERIFIED
+Cybersecurity Analyst,linux,UNVERIFIED
+Cybersecurity Analyst,windows,UNVERIFIED
+Cybersecurity Analyst,python,UNVERIFIED
+Cybersecurity Analyst,bash scripting,UNVERIFIED
+Cybersecurity Analyst,powershell,UNVERIFIED
+Cybersecurity Analyst,vpn,UNVERIFIED
+Cybersecurity Analyst,dns,UNVERIFIED
+Cybersecurity Analyst,active directory,UNVERIFIED
+Cybersecurity Analyst,cloud computing,UNVERIFIED
+Cybersecurity Analyst,technical documentation,UNVERIFIED
+Cybersecurity Analyst,critical thinking,UNVERIFIED
+Cybersecurity Analyst,problem solving,UNVERIFIED
+Cybersecurity Analyst,attention to detail,UNVERIFIED
+Cybersecurity Analyst,communication,UNVERIFIED
+Cybersecurity Analyst,teamwork,UNVERIFIED
+Cybersecurity Analyst,network monitoring,UNVERIFIED
+Cybersecurity Analyst,database security,UNVERIFIED
+Cybersecurity Analyst,git,UNVERIFIED
+Quality Assurance Tester,manual testing,UNVERIFIED
+Quality Assurance Tester,test automation,UNVERIFIED
+Quality Assurance Tester,selenium,UNVERIFIED
+Quality Assurance Tester,test case design,UNVERIFIED
+Quality Assurance Tester,bug reporting,UNVERIFIED
+Quality Assurance Tester,regression testing,UNVERIFIED
+Quality Assurance Tester,api testing,UNVERIFIED
+Quality Assurance Tester,performance testing,UNVERIFIED
+Quality Assurance Tester,jira,UNVERIFIED
+Quality Assurance Tester,unit testing,UNVERIFIED
+Quality Assurance Tester,agile,UNVERIFIED
+Quality Assurance Tester,python,UNVERIFIED
+Quality Assurance Tester,java,UNVERIFIED
+Quality Assurance Tester,javascript,UNVERIFIED
+Quality Assurance Tester,sql,UNVERIFIED
+Quality Assurance Tester,git,UNVERIFIED
+Quality Assurance Tester,ci/cd,UNVERIFIED
+Quality Assurance Tester,debugging,UNVERIFIED
+Quality Assurance Tester,rest api,UNVERIFIED
+Quality Assurance Tester,linux,UNVERIFIED
+Quality Assurance Tester,technical documentation,UNVERIFIED
+Quality Assurance Tester,attention to detail,UNVERIFIED
+Quality Assurance Tester,critical thinking,UNVERIFIED
+Quality Assurance Tester,communication,UNVERIFIED
+Quality Assurance Tester,teamwork,UNVERIFIED
+Quality Assurance Tester,problem solving,UNVERIFIED
+Quality Assurance Tester,html,UNVERIFIED
+Quality Assurance Tester,docker,UNVERIFIED
+IT Support Specialist,help desk,UNVERIFIED
+IT Support Specialist,hardware troubleshooting,UNVERIFIED
+IT Support Specialist,ticketing systems,UNVERIFIED
+IT Support Specialist,remote support,UNVERIFIED
+IT Support Specialist,windows,UNVERIFIED
+IT Support Specialist,linux,UNVERIFIED
+IT Support Specialist,active directory,UNVERIFIED
+IT Support Specialist,os installation,UNVERIFIED
+IT Support Specialist,virtualization,UNVERIFIED
+IT Support Specialist,network troubleshooting,UNVERIFIED
+IT Support Specialist,tcp/ip,UNVERIFIED
+IT Support Specialist,dns,UNVERIFIED
+IT Support Specialist,dhcp,UNVERIFIED
+IT Support Specialist,wireless networking,UNVERIFIED
+IT Support Specialist,technical documentation,UNVERIFIED
+IT Support Specialist,customer service,UNVERIFIED
+IT Support Specialist,communication,UNVERIFIED
+IT Support Specialist,teamwork,UNVERIFIED
+IT Support Specialist,problem solving,UNVERIFIED
+IT Support Specialist,attention to detail,UNVERIFIED
+IT Support Specialist,time management,UNVERIFIED
+IT Support Specialist,powershell,UNVERIFIED
+IT Support Specialist,vpn,UNVERIFIED
+IT Support Specialist,cloud computing,UNVERIFIED
+IT Support Specialist,backup and recovery,UNVERIFIED
+IT Support Specialist,identity and access management,UNVERIFIED
+IT Support Specialist,excel,UNVERIFIED
+IT Support Specialist,network security,UNVERIFIED

@@ -1,0 +1,20 @@
+{
+  "banner": "SAMPLE DATA, NOT A PROJECT RESULT",
+  "profiles_file": "student_profiles_SAMPLE.csv",
+  "total_profiles": 30,
+  "top3_correct": 30,
+  "top3_accuracy_percent": 100.0,
+  "top1_correct": 26,
+  "top1_accuracy_percent": 86.7,
+  "random_baseline_top3_percent": 37.5,
+  "most_common_roles": [
+    "Data Analyst",
+    "IT Support Specialist",
+    "Network Administrator"
+  ],
+  "most_common_baseline_top3_percent": 40.0,
+  "target_top3_percent": 80,
+  "met_target": true,
+  "points_per_wrong_result": 3.3,
+  "note": "One wrong result moves top-3 accuracy by about 3.3 points on 30 profiles."
+}

@@ -1,0 +1,6 @@
+# SAMPLE DATA, NOT A PROJECT RESULT
+profile_id,error_type,true_role,recommended_top3,n_skills,likely_cause
+S005,top-1 miss only (true role is in top 3),IT Support Specialist,Network Administrator | IT Support Specialist | Cybersecurity Analyst,8,IT Support Specialist and Network Administrator are a known overlap pair (21 shared role skills).
+S012,top-1 miss only (true role is in top 3),Software Developer,Web Developer | Quality Assurance Tester | Software Developer,8,Software Developer and Web Developer are a known overlap pair (19 shared role skills).
+S013,top-1 miss only (true role is in top 3),Network Administrator,IT Support Specialist | Network Administrator | Cybersecurity Analyst,8,Network Administrator and IT Support Specialist are a known overlap pair (21 shared role skills).
+S028,top-1 miss only (true role is in top 3),Web Developer,Software Developer | Quality Assurance Tester | Web Developer,8,Web Developer and Software Developer are a known overlap pair (19 shared role skills).

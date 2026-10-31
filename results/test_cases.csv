@@ -1,0 +1,24 @@
+id,type,input,expected,actual,result
+T01,empty,"empty string, nothing selected","no skills, no results, no crash","skills=[], results=[]",pass
+T02,empty,"nothing selected, spaces typed","no skills, no results","skills=[], results=[]",pass
+T03,invalid,None for both inputs,"treated as empty, no crash","skills=[], results=[]",pass
+T04,normal,one skill: python,"3 roles returned, scores between 0 and 1","[('Database Administrator', 0.1268), ('Quality Assurance Tester', 0.1257), ('Software Developer', 0.1253)]",pass
+T05,unexpected,all skills selected,"3 roles returned, scores between 0 and 1","112 skills, top3=[('Data Analyst', 0.4725), ('Network Administrator', 0.4663), ('Web Developer', 0.4577)]",pass
+T06,unexpected,"typed: pythno, javascrpit, postgre sql",python and javascript recognized,"skills=['python', 'javascript', 'postgresql'], unrecognized=[]",pass
+T07,normal,typed: py,python,skills=['python'],pass
+T08,normal,"typed: ms sql, node, oop","microsoft sql server, node.js, object-oriented programming","skills=['microsoft sql server', 'node.js', 'object-oriented programming']",pass
+T09,unexpected,"python selected twice, typed Python, py, PYTHON",python once,skills=['python'],pass
+T10,invalid,"typed: @@@, ###, !!!, $$$","no skills, no results","skills=[], results=[]",pass
+T11,invalid,typed: PYTHON!!! ; <script>alert(1)</script>,python only,"skills=['python'], unrecognized=['script alert 1 /script']",pass
+T12,normal,typed with mixed case and spaces,"python, sql","skills=['python', 'sql']",pass
+T13,invalid,typed: quantum basket weaving,"not recognized, no results","skills=[], unrecognized=['quantum basket weaving']",pass
+T14,unexpected,"teamwork, communication, problem solving","3 roles, top score below 0.5","top3=[('IT Support Specialist', 0.1756), ('Database Administrator', 0.1755), ('Quality Assurance Tester', 0.174)]",pass
+T15,unexpected,"typed text of about 16,000 characters","python once, no crash",skills=['python'],pass
+T16,normal,"penetration testing, siem, incident response",top role Cybersecurity Analyst,top1=Cybersecurity Analyst,pass
+T17,normal,"html, css, react, bootstrap, responsive design",top role Web Developer,top1=Web Developer,pass
+T18,normal,"vlan, routing, switching, cisco ios, subnetting",top role Network Administrator,top1=Network Administrator,pass
+T19,normal,TF-IDF weights in the Cybersecurity Analyst vector,penetration testing weighs more than teamwork,"penetration testing=0.239, teamwork=0.096",pass
+T20,normal,"python, sql, git",no selected skill in any missing list,missing lists contain no selected skill,pass
+T21,normal,"python, sql","missing skills ordered by weight, heaviest first",missing weights are non-increasing in every returned role,pass
+T22,normal,same input twice,identical output,two runs compared,pass
+T23,normal,role_profiles.csv,"8 roles, 25 to 40 skills each, all in skills.csv","roles=8, sizes=28-32",pass
