@@ -1,0 +1,6 @@
+flowchart LR
+  A[Streamlit screen<br/>skills picked from list of 112<br/>plus typed variants] --> B[Skill Input module<br/>maps variants to standard names<br/>39 synonyms]
+  B --> C[Matching module<br/>TF-IDF vectorizer fitted on 8 role documents<br/>cosine similarity, top 3 roles]
+  D[(Role profiles<br/>240 role-skill rows)] --> C
+  C --> E[Skill Gap module<br/>missing skills per role<br/>heaviest TF-IDF weight first]
+  E --> F[Streamlit screen<br/>3 roles, scores,<br/>matched and missing skills]

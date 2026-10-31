@@ -159,3 +159,7 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 - Report both counts: 128 backed, 62 single source, 50 unverified when the pages were read; 53, 83 and 104 on the 24 sources that remain.
 - Replacing the closed sources moves to future work in Chapter 5.
 - The paper (Chapter 1 limitations, Chapter 3, Chapter 5, Appendix A note) and the progress report are updated to match.
+
+## 2026-11-01 (architecture figure)
+
+- Added the architecture diagram for Chapter 3 as `docs/figures/architecture.png`, with its source in `docs/figures/architecture.mmd`.
