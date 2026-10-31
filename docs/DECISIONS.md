@@ -98,3 +98,14 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 - Chapter 3 lists the skills per role (32, 32, 31, 30, 30, 29, 28, 28 for 240 rows) and says unverified rows stay in the profiles and are used by the matcher.
 - The paper Limitations now state that postings expire with no archived copies, that skills are matched by name only with no weight for skill level, that two role pairs overlap heavily (Software Developer and Web Developer; Network Administrator and IT Support Specialist), and that the instructor has not confirmed the eight roles.
 - Chapter 4 names the one top-1 miss as profile M04.
+
+## 2026-11-01 (progress report and paper chapters 4 and 5)
+
+- Instructor left the choice of the eight roles to the group. The paper and the report no longer list the roles as unconfirmed; the paper keeps one limitation that no outside check of the role list exists.
+- Report roles: Granada project lead and coordination; Tabares data and sourcing; Morales matching and TF-IDF code; Berona interface and Streamlit screen; Arimatea and Paredes testing and evaluation; Delos Santos documentation and paper.
+- Report dates are planned weekly periods: Week 1 October 12 to 18, Week 2 October 19 to 25, Week 3 October 26 to November 1, Week 4 November 2 to 8, Week 5 November 9 to 15, Week 6 November 16 to 22. Weeks 4 and 5 work was finished early, on November 1.
+- Report overall completion is 70%, status on track. Weeks 3 to 5 are filled; Week 6 is blank.
+- Paper Chapter 4 now has test cases, accuracy by role, error analysis (profile M04) and screen sections. Chapter 5 has the conclusion against the four objectives and the recommendations.
+- Chapter 4 points to the screenshots and test case file in the project files; the group still picks which screenshots go in the final document.
+- Ali et al. (2022) reference now has volume 41, issue 1 from the journal site. Page numbers are not listed there. The JITK journal name was checked against the journal page.
+- The test set stays manual. No real student profiles will be collected.
