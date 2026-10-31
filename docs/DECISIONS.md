@@ -92,3 +92,9 @@ Log of project decisions. Newest first. Add a dated entry for every decision, th
 ## 2026-11-01 (source count fixed in status files)
 
 - Corrected the earlier count: 22 sources were added, not 18, so the total is 54, not 52. Fixed in `Build_Status.md` and the strict-sourcing entry above. README and `sources_apa.md` never gave the total.
+
+## 2026-11-01 (paper limitations and sizes)
+
+- Chapter 3 lists the skills per role (32, 32, 31, 30, 30, 29, 28, 28 for 240 rows) and says unverified rows stay in the profiles and are used by the matcher.
+- The paper Limitations now state that postings expire with no archived copies, that skills are matched by name only with no weight for skill level, that two role pairs overlap heavily (Software Developer and Web Developer; Network Administrator and IT Support Specialist), and that the instructor has not confirmed the eight roles.
+- Chapter 4 names the one top-1 miss as profile M04.
