@@ -2,6 +2,19 @@
 
 Log of project decisions. Newest first. Add a dated entry for every decision, then commit and push it.
 
+## 2026-11-01 (Chapter 4 screenshots)
+
+- Saved 5 final screenshots in `results/screenshots/final/` as PNG, 1440 px wide, with no browser window frame.
+- Captured them with headless Chromium through Playwright from the app running locally. The app code was not changed.
+- Hid the Streamlit developer toolbar during capture so only the app content shows.
+- Picked skills from the list for every input, as a user would.
+- Used java, python, object-oriented programming, data structures, algorithms and git as the Software Developer demo input (figure 3).
+- Used html, css and react as the zero-score example (figure 5): only 2 roles remain.
+- Used mock profile M04 for the top-1 miss (figure 6): Quality Assurance Tester ranks first at 0.4846, Software Developer second at 0.4831. Both display 0.48.
+- Showed the skill list open in figure 2 so the reader sees the list.
+- Kept the older JPG screenshots in `results/screenshots/` unchanged.
+- Described each figure in `results/screenshots/final/README.md`.
+
 ## 2026-11-01 (archive copies of sources)
 
 - Saved 18 of 54 sources as PDF in `sources/archive/`: CA-6, CA-7, DA-1, DA-4, DBA-2, DBA-5, DBA-7, IT-1, IT-6, NA-8, NA-9, QA-5, QA-6, SD-1, SD-3, SD-4, WD-4, WD-6. Each PDF was checked for the job title and the skills or tasks text.
