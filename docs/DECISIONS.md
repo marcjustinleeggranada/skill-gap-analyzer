@@ -2,6 +2,15 @@
 
 Log of project decisions. Newest first. Add a dated entry for every decision, then commit and push it.
 
+## 2026-11-01 (Chapter 4 screenshots recaptured)
+
+- Recaptured the five images in `results/screenshots/final/` so they show the reworded draft notice from commit `d0897b3`.
+- Kept the same file names, because the paper loads them from raw GitHub URLs.
+- Used the same inputs and screen states as the first capture, from the app running locally at 1440 px width.
+- Checked each image: roles, scores, matched skills and missing skills are the same as before. Only the notice changed.
+- The notice now wraps to three lines and moves the content below it down 48 px, so heights changed: fig3 1699 to 1706, fig4 940 to 900, fig5 1423 to 1430, fig6 1604 to 1611. fig2 stays 1440 x 900.
+- Updated the screenshot README with the recapture note and the image sizes.
+
 ## 2026-11-01 (draft notice wording)
 
 - Replaced the draft notice in `app.py` with: "The role profiles are drafts. When the source pages were read, 128 of the 240 role skills were backed by 2 or more sources. Since then 30 of the 54 source pages have closed, so some skills cannot be rechecked."
