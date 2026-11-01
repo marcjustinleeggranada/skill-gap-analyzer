@@ -2,6 +2,12 @@
 
 Log of project decisions. Newest first. Add a dated entry for every decision, then commit and push it.
 
+## 2026-11-01 (live app)
+
+- Deployed the app on Streamlit Community Cloud from `main`, file `app.py`. The owner did the sign-in and deploy.
+- Added the live URL to README.md: https://skill-gap-analyzer-h6ipu3mkyj43gmp4lznoy3.streamlit.app/
+- Checked the live app in a browser: it loaded, showed the empty-input warning, and java, python and algorithms returned "Top 3 roles" with Software Developer first at 0.35.
+
 ## 2026-11-01 (Streamlit Community Cloud readiness)
 
 - Kept `requirements.txt` as is: the app imports only streamlit, pandas and scikit-learn, and all three are pinned.

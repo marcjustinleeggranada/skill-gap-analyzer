@@ -6,6 +6,12 @@ Course: IT Elective 1 (Artificial Intelligence), Group 8, BSIT (Bachelor of Scie
 
 A student selects the IT skills they have from a list of 112 skills. The Matching module compares those skills with 8 IT role profiles using TF-IDF and cosine similarity. The screen shows the top 3 roles, the similarity score, the matched skills and the missing skills for each role. The output is guidance for study planning, not a hiring decision.
 
+## Live app
+
+https://skill-gap-analyzer-h6ipu3mkyj43gmp4lznoy3.streamlit.app/
+
+Hosted on Streamlit Community Cloud from the `main` branch (`app.py`). It redeploys when `main` changes. After a period without visitors the app sleeps; the first visitor then wakes it, which takes a short while.
+
 ## Status of the data
 
 - The 8 role profiles in `data/role_profiles.csv` are partly sourced. Of 240 rows, 128 are backed by 2 or more live sources, 62 by 1 source and 50 are still `UNVERIFIED`. A source counts only if the page names the skill (see `sources/sources_apa.md`). Source IDs in the `source` column refer to `sources/sources.csv`. The team must save archive copies of the postings and check the single-source and unverified rows before the paper cites them.
