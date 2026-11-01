@@ -2,6 +2,14 @@
 
 Log of project decisions. Newest first. Add a dated entry for every decision, then commit and push it.
 
+## 2026-11-01 (draft notice wording)
+
+- Replaced the draft notice in `app.py` with: "The role profiles are drafts. When the source pages were read, 128 of the 240 role skills were backed by 2 or more sources. Since then 30 of the 54 source pages have closed, so some skills cannot be rechecked."
+- Said "2 or more sources", not "2 or more job postings": 13 of the 54 sources are occupation or reference pages, and the backing rule counts any source.
+- Changed only that string. Matching logic, data and tests are unchanged.
+- Ran the test suite after the change: 28 of 28 cases pass.
+- Checked the notice on the app running locally.
+
 ## 2026-11-01 (live app)
 
 - Deployed the app on Streamlit Community Cloud from `main`, file `app.py`. The owner did the sign-in and deploy.
